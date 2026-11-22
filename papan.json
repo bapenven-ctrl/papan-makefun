@@ -1,9 +1,11 @@
 {
  "bounty": [
   {
-   "blocker": [],
+   "blocker": [
+    "TIPE_JEDA metrik-grader.txt (perintah Keva 15:11 WIB)"
+   ],
    "buka_utc": "2026-11-21T03:00:00Z",
-   "catatan": "pack v12. V1 DISUBMIT 06:37 UTC (stage scored, semua check lulus); skor practice 1.000.000 (5/5 tepat P*), baseline 200.000, run 0,37 dtk, repo 33.636 byte. Kit level 36 diunduh ulang (32/32 sha256 cocok), grade-local ulang 1.000.000. Hasil dev (skor/rank) belum terbaca; hasil resmi setelah entry tutup 2026-11-23 03:00 UTC. DIJEDA: TIPE_JEDA metrik-grader.txt (perintah Keva 15:11 WIB) sampai dicabut; V2 menunggu pencabutan jeda.",
+   "catatan": "pack v12. V1 DISUBMIT 06:37 UTC (stage scored, semua check lulus); skor practice 1.000.000 (5/5 tepat P*), baseline 200.000, run 0,37 dtk, repo 33.636 byte. Kit level 36 diunduh ulang (32/32 sha256 cocok), grade-local ulang 1.000.000. Rank dev #7489/7.571 per 15:09 WIB (tie-break). Hasil resmi setelah entry tutup 2026-11-23 03:00 UTC. DIJEDA: TIPE_JEDA metrik-grader.txt sampai dicabut; V2 menunggu pencabutan jeda.",
    "duel_a": {
     "n": 0,
     "putusan": null,
@@ -14,7 +16,7 @@
    "hadiah_didapat": null,
    "jadwal_mulai_utc": "2026-11-22T03:00:00Z",
    "judul": "Build the best Sokoban solver, 21 November 2026",
-   "kelonggaran_menit": 1083,
+   "kelonggaran_menit": 1020,
    "langkah_berikutnya": "BUILDER (V2) — DIJEDA sampai TIPE_JEDA dicabut",
    "langkah_terakhir_selesai": "BUILDER + CROSSCHECK GO putaran 2 (05:39 UTC); V1 DISUBMIT 06:37 UTC (submission 01a201f9-6219-7495-bf3f-8d51bf9bab6b, commit 0567966, stage scored)",
    "menunggu_apa": null,
@@ -40,7 +42,9 @@
    "vonis_crosscheck": "GO"
   },
   {
-   "blocker": [],
+   "blocker": [
+    "SKIP final Keva 2026-11-20; butuh kanal YouTube milik Keva"
+   ],
    "buka_utc": null,
    "catatan": "MATI — SKIP final Keva 2026-11-20 ~06:46 WIB; ranking murni views YouTube, butuh kanal/upload milik Keva. Pembalikan keputusan lewat file inbox lanjutkan-gta6-clipper-01.txt berisi 'lanjut'.",
    "duel_a": {
@@ -53,7 +57,7 @@
    "hadiah_didapat": null,
    "jadwal_mulai_utc": "2026-11-21T13:00:00Z",
    "judul": null,
-   "kelonggaran_menit": 693,
+   "kelonggaran_menit": 630,
    "langkah_berikutnya": "-",
    "langkah_terakhir_selesai": "BUILDER berhenti 06:00 UTC — kanal tidak tersedia; SKIP final Keva",
    "menunggu_apa": null,
@@ -67,9 +71,9 @@
    "skor": null,
    "slug": "gta6-clipper-01",
    "status": "MATI",
-   "submit_status": "tidak disubmit — MATI (SKIP final Keva)",
+   "submit_status": "Tidak disubmit — MATI",
    "submit_utc": null,
-   "tautan": null,
+   "tautan": "https://make.fun/bounty/gta6-clipper-01",
    "tempat_dibayar": null,
    "tenggat_utc": "2026-11-23T01:00:00Z",
    "tipe_baru": false,
@@ -79,48 +83,53 @@
    "vonis_crosscheck": null
   },
   {
-   "blocker": [],
+   "blocker": [
+    "execution-risk check melarang git/salin pada submit V2 (09:05 UTC); persetujuan Keva sudah masuk inbox 09:17 UTC"
+   ],
    "buka_utc": null,
-   "catatan": "pack v12 (V2 sedang dikerjakan; kunci sejak 08:11 UTC). V1 disubmit 01:05 UTC, skor 982.336, rank #493/11.805, di luar 50 besar (bar #50: 988.379). V1 dibangun di sistem lama — bukan pack v12, vonis crosscheck v12 tidak ada. Jalur V2: prosedural, render.py baru + main.py stdlib-only, repo V1 yang sama dipakai.",
+   "catatan": "pack v12. V1: skor 982.336, rank #493/11.805 (dev #741/15.139 per 15:09 WIB), di luar 50 besar. V2 kandidat siap (entry.png sha 1b40db7f, 751.587 byte, 35 cerita, crosscheck GO putaran 0); kuota terverifikasi 09:02 UTC: entries_made 2, day left 8, can_submit true. V1 tetap entri final bila V2 tidak jadi disubmit.",
    "duel_a": {
     "n": 0,
     "putusan": null,
     "win_rate": null
    },
-   "file_inbox": null,
+   "file_inbox": "setuju-news-image-20261121-v2.txt",
    "hadiah": "$100",
    "hadiah_didapat": null,
    "jadwal_mulai_utc": "2026-11-22T06:49:00Z",
    "judul": null,
-   "kelonggaran_menit": 753,
-   "langkah_berikutnya": "BUILDER (lanjut render.py V2)",
-   "langkah_terakhir_selesai": "V1 disubmit 01:05 UTC (skor 982.336, rank #493/11.805); analisis+konsep V2 selesai 08:11-08:23 UTC, mulai build render.py V2",
-   "menunggu_apa": null,
-   "menunggu_sejak_utc": null,
+   "kelonggaran_menit": 690,
+   "langkah_berikutnya": "SUBMIT (setelah pekerja mengambil approval)",
+   "langkah_terakhir_selesai": "BUILDER + CROSSCHECK GO putaran 0 (09:05 UTC); SUBMIT TERTUNDA 09:05 UTC — execution-risk check",
+   "menunggu_apa": "Persetujuan eksplisit sudah diterima (inbox 'lanjut' 09:17 UTC); menunggu jalan pekerja mengambilnya setelah kunci kosong",
+   "menunggu_sejak_utc": "2026-11-22T09:05:00Z",
    "mulai_dikerjakan_utc": "2026-11-22T08:11:00Z",
    "mulai_terakhir_utc": "2026-11-22T21:00:00Z",
    "peringkat": 493,
    "prioritas": false,
-   "putaran": null,
-   "selesai_dikerjakan_utc": null,
+   "putaran": 0,
+   "selesai_dikerjakan_utc": "2026-11-22T09:05:00Z",
    "skor": 982.336,
    "slug": "news-image-20261121",
-   "status": "DIPROSES",
-   "submit_status": "V1 disubmit; V2 belum dikerjakan",
+   "status": "MINTA APPROVAL",
+   "submit_status": "V1 disubmit (stage SCORED); V2 siap, submit tertunda — approval sudah di inbox",
    "submit_utc": "2026-11-22T01:05:00Z",
-   "tautan": null,
+   "tautan": "https://make.fun/bounty/news-image-20261121",
    "tempat_dibayar": null,
    "tenggat_utc": "2026-11-23T00:00:00Z",
    "tipe_baru": false,
    "total_peserta": 11805,
    "type_card": "design-gambar-news-image.txt",
    "versi": 2,
-   "vonis_crosscheck": null
+   "vonis_crosscheck": "GO"
   },
   {
-   "blocker": [],
+   "blocker": [
+    "TIPE_JEDA metrik-grader.txt (perintah Keva 15:11 WIB)",
+    "hasil dev V2 belum terbaca"
+   ],
    "buka_utc": "2026-11-21T02:42:00Z",
-   "catatan": "pack v12 (V2). V1: gate-local 6/6, solve() 5,72x baseline, 8.622 perbandingan diferensial 0 selisih. Percobaan submit pertama ditolak 422 repo_readme, diperbaiki lalu lolos. Skor dev V1 = CPU 1.470.000 µs (trimmed mean), lolos 6/6, tanpa efficiency reward; papan atas 0 µs. V2: byte transducer, grade-local 6/6, crosscheck GO putaran 2 (08:02 UTC). DIJEDA: TIPE_JEDA metrik-grader.txt (perintah Keva 15:11 WIB) sampai dicabut; V3 menunggu hasil dev V2 + pencabutan jeda.",
+   "catatan": "pack v12. V1 dev: rank #3759/8447, CPU 1.470.000 µs, lolos 6/6, tanpa efficiency reward (per 15:09 WIB #3836/8.695). V2: byte transducer, grade-local 6/6, crosscheck GO putaran 2 (08:02 UTC). DIJEDA: TIPE_JEDA metrik-grader.txt sampai dicabut; V3 menunggu hasil dev V2 + pencabutan jeda.",
    "duel_a": {
     "n": 0,
     "putusan": null,
@@ -129,11 +138,11 @@
    "file_inbox": null,
    "hadiah": "$100",
    "hadiah_didapat": null,
-   "jadwal_mulai_utc": "2026-11-22T06:32:00Z",
+   "jadwal_mulai_utc": null,
    "judul": null,
-   "kelonggaran_menit": 1065,
+   "kelonggaran_menit": 1002,
    "langkah_berikutnya": "BUILDER (V3, setelah hasil dev V2 terbaca DAN pencabutan TIPE_JEDA)",
-   "langkah_terakhir_selesai": "V2 disubmit 08:08 UTC (submission 01a2024c-f2ae-746e-9266-82bcbd3dacd5, commit e89944c, stage checked); V1 disubmit 05:51 UTC (submission 01a201cf-4d58-7729-99fa-f130f7e67237); dev V1: rank #3759/8447, CPU 1.470.000 µs",
+   "langkah_terakhir_selesai": "V2 disubmit 08:08 UTC (submission 01a2024c-f2ae-746e-9266-82bcbd3dacd5, commit e89944c, stage checked); V1 disubmit 05:51 UTC (submission 01a201cf-4d58-7729-99fa-f130f7e67237)",
    "menunggu_apa": null,
    "menunggu_sejak_utc": null,
    "mulai_dikerjakan_utc": "2026-11-22T06:41:00Z",
@@ -145,9 +154,9 @@
    "skor": 1470000,
    "slug": "csv-reader-speed-01-run-20261121",
    "status": "MENUNGGU",
-   "submit_status": "V1 disubmit, stage scored; V2 disubmit 08:08 UTC, stage checked, dev grading berjalan",
+   "submit_status": "V1 disubmit (stage scored), V2 disubmit (stage checked); V3 belum dikerjakan",
    "submit_utc": "2026-11-22T08:08:00Z",
-   "tautan": null,
+   "tautan": "https://make.fun/bounty/csv-reader-speed-01-run-20261121",
    "tempat_dibayar": null,
    "tenggat_utc": "2026-11-23T02:42:00Z",
    "tipe_baru": false,
@@ -157,9 +166,12 @@
    "vonis_crosscheck": "GO"
   },
   {
-   "blocker": [],
+   "blocker": [
+    "butuh akun X publik Keva",
+    "keputusan Garap/Skip Keva belum ada; briefing 2026-11-20 merekomendasi Skip"
+   ],
    "buka_utc": null,
-   "catatan": "pack v12. Posting di X = aktivitas akun sosial (CORE 4). Briefing 2026-11-20 merekomendasi Skip; belum ada keputusan final Keva (Pending User Decision sejak 2026-11-21 di sistem lama).",
+   "catatan": "pack v12. Posting di X = aktivitas akun sosial (CORE 4). Pending User Decision sejak 2026-11-21 di sistem lama.",
    "duel_a": {
     "n": 0,
     "putusan": null,
@@ -170,10 +182,10 @@
    "hadiah_didapat": null,
    "jadwal_mulai_utc": "2026-11-21T14:00:00Z",
    "judul": null,
-   "kelonggaran_menit": 1473,
+   "kelonggaran_menit": 1410,
    "langkah_berikutnya": "-",
    "langkah_terakhir_selesai": "Pekerja 06:05 UTC: tidak dibangun — butuh akun X publik + keputusan Garap/Skip Keva",
-   "menunggu_apa": "keputusan Garap/Skip Keva + akun X publik bila Garap",
+   "menunggu_apa": "Keputusan Garap/Skip Keva + akun X publik yang siap dipakai posting",
    "menunggu_sejak_utc": "2026-11-22T06:06:00Z",
    "mulai_dikerjakan_utc": null,
    "mulai_terakhir_utc": "2026-11-23T09:00:00Z",
@@ -184,9 +196,9 @@
    "skor": null,
    "slug": "gta6-meme-x-01",
    "status": "MINTA APPROVAL",
-   "submit_status": "belum disubmit — tidak dibangun",
+   "submit_status": "Tidak disubmit — menunggu keputusan",
    "submit_utc": null,
-   "tautan": null,
+   "tautan": "https://make.fun/bounty/gta6-meme-x-01",
    "tempat_dibayar": null,
    "tenggat_utc": "2026-11-23T14:00:00Z",
    "tipe_baru": false,
@@ -198,7 +210,7 @@
   {
    "blocker": [],
    "buka_utc": "2026-11-22T00:00:00Z",
-   "catatan": "pack v12.",
+   "catatan": "pack v12. Buka 2026-11-22 00:00 UTC; bisa digarap cron mulai Senin 23 Nov 07:00 WIB.",
    "duel_a": {
     "n": 0,
     "putusan": null,
@@ -209,7 +221,7 @@
    "hadiah_didapat": null,
    "jadwal_mulai_utc": "2026-11-23T00:00:00Z",
    "judul": null,
-   "kelonggaran_menit": 2193,
+   "kelonggaran_menit": 2130,
    "langkah_berikutnya": "BUILDER",
    "langkah_terakhir_selesai": "-",
    "menunggu_apa": null,
@@ -223,9 +235,9 @@
    "skor": null,
    "slug": "news-image-20261122",
    "status": "MENUNGGU",
-   "submit_status": "belum disubmit",
+   "submit_status": "Belum disubmit",
    "submit_utc": null,
-   "tautan": null,
+   "tautan": "https://make.fun/bounty/news-image-20261122",
    "tempat_dibayar": null,
    "tenggat_utc": "2026-11-24T00:00:00Z",
    "tipe_baru": false,
@@ -235,36 +247,38 @@
    "vonis_crosscheck": null
   },
   {
-   "blocker": [],
+   "blocker": [
+    "execution-risk check pada gh repo create (09:10 UTC); persetujuan Keva sudah masuk inbox 09:17 UTC"
+   ],
    "buka_utc": null,
-   "catatan": "pack v12. MODE REKAM (overlay-transkrip-ketat) — record kit harus jalan sebelum sesi build.",
+   "catatan": "pack v12. MODE REKAM (overlay-transkrip-ketat): record kit harus jalan sebelum sesi build. TIDAK ADA clone/salin/rekaman/build sebelum approval.",
    "duel_a": {
     "n": 0,
     "putusan": null,
     "win_rate": null
    },
-   "file_inbox": null,
+   "file_inbox": "setuju-gta6-01-v1.txt",
    "hadiah": "$1.666",
    "hadiah_didapat": null,
    "jadwal_mulai_utc": "2026-11-21T03:00:00Z",
    "judul": null,
-   "kelonggaran_menit": 2733,
-   "langkah_berikutnya": "BUILDER",
-   "langkah_terakhir_selesai": "-",
-   "menunggu_apa": null,
-   "menunggu_sejak_utc": null,
-   "mulai_dikerjakan_utc": null,
+   "kelonggaran_menit": 2670,
+   "langkah_berikutnya": "BUILDER V1 (setelah pekerja mengambil approval)",
+   "langkah_terakhir_selesai": "Repo GitHub bapenven-ctrl/gta6-01 dibuat 09:08 UTC (kosong); kit segar 24/24 cocok; BUILDER V1 TERTUNDA 09:10 UTC — execution-risk check",
+   "menunggu_apa": "Persetujuan eksplisit sudah diterima (inbox 'lanjut' 09:17 UTC); menunggu jalan pekerja mengambilnya setelah kunci kosong",
+   "menunggu_sejak_utc": "2026-11-22T09:10:00Z",
+   "mulai_dikerjakan_utc": "2026-11-22T09:06:00Z",
    "mulai_terakhir_utc": "2026-11-24T06:00:00Z",
    "peringkat": null,
    "prioritas": false,
    "putaran": null,
-   "selesai_dikerjakan_utc": null,
+   "selesai_dikerjakan_utc": "2026-11-22T09:10:00Z",
    "skor": null,
    "slug": "gta6-01",
-   "status": "MENUNGGU",
-   "submit_status": "belum disubmit",
+   "status": "MINTA APPROVAL",
+   "submit_status": "Belum disubmit — BUILDER V1 tertunda, approval sudah di inbox",
    "submit_utc": null,
-   "tautan": null,
+   "tautan": "https://make.fun/bounty/gta6-01",
    "tempat_dibayar": null,
    "tenggat_utc": "2026-11-24T15:00:00Z",
    "tipe_baru": false,
@@ -274,9 +288,12 @@
    "vonis_crosscheck": null
   },
   {
-   "blocker": [],
+   "blocker": [
+    "TIPE_JEDA metrik-grader.txt (perintah Keva 15:11 WIB)",
+    "keputusan Keva tertunda (pekerjaan lama: golf12/D1, gate Tahap B NO-GO)"
+   ],
    "buka_utc": "2026-11-10T17:00:00Z",
-   "catatan": "sistem lama — bukan pack v12 (golf12/D1, gate Tahap B NO-GO) — keputusan Keva tertunda. DIJEDA: TIPE_JEDA metrik-grader.txt (perintah Keva 15:11 WIB) sampai dicabut.",
+   "catatan": "sistem lama — bukan pack v12 (golf12/D1, gate Tahap B NO-GO); keputusan Keva tertunda. DIJEDA: TIPE_JEDA metrik-grader.txt sampai dicabut.",
    "duel_a": {
     "n": 0,
     "putusan": null,
@@ -287,7 +304,7 @@
    "hadiah_didapat": null,
    "jadwal_mulai_utc": "2026-11-11T05:00:00Z",
    "judul": null,
-   "kelonggaran_menit": 2733,
+   "kelonggaran_menit": 2670,
    "langkah_berikutnya": "BUILDER — DIJEDA sampai TIPE_JEDA dicabut",
    "langkah_terakhir_selesai": "-",
    "menunggu_apa": null,
@@ -301,9 +318,9 @@
    "skor": null,
    "slug": "tiny-chess-01",
    "status": "MENUNGGU",
-   "submit_status": "belum disubmit",
+   "submit_status": "Belum disubmit",
    "submit_utc": null,
-   "tautan": null,
+   "tautan": "https://make.fun/bounty/tiny-chess-01",
    "tempat_dibayar": null,
    "tenggat_utc": "2026-11-24T17:00:00Z",
    "tipe_baru": false,
@@ -313,9 +330,11 @@
    "vonis_crosscheck": null
   },
   {
-   "blocker": [],
+   "blocker": [
+    "butuh akun TikTok publik"
+   ],
    "buka_utc": null,
-   "catatan": "pack v12. Butuh akun TikTok publik.",
+   "catatan": "pack v12. Bisa digarap cron mulai Senin 23 Nov 14:00 WIB; butuh akun TikTok publik.",
    "duel_a": {
     "n": 0,
     "putusan": null,
@@ -326,7 +345,7 @@
    "hadiah_didapat": null,
    "jadwal_mulai_utc": "2026-11-23T07:00:00Z",
    "judul": null,
-   "kelonggaran_menit": 3213,
+   "kelonggaran_menit": 3150,
    "langkah_berikutnya": "BUILDER",
    "langkah_terakhir_selesai": "-",
    "menunggu_apa": null,
@@ -340,9 +359,9 @@
    "skor": null,
    "slug": "bring-the-humans-03",
    "status": "MENUNGGU",
-   "submit_status": "belum disubmit",
+   "submit_status": "Belum disubmit",
    "submit_utc": null,
-   "tautan": null,
+   "tautan": "https://make.fun/bounty/bring-the-humans-03",
    "tempat_dibayar": null,
    "tenggat_utc": "2026-11-24T19:00:00Z",
    "tipe_baru": false,
@@ -352,9 +371,11 @@
    "vonis_crosscheck": null
   },
   {
-   "blocker": [],
+   "blocker": [
+    "TIPE_JEDA metrik-grader.txt (perintah Keva 15:11 WIB)"
+   ],
    "buka_utc": "2026-11-22T04:00:00Z",
-   "catatan": "pack v12. DIJEDA: TIPE_JEDA metrik-grader.txt (perintah Keva 15:11 WIB) sampai dicabut.",
+   "catatan": "pack v12. Jadwal mulai Senin 23 Nov 23:00 WIB. DIJEDA: TIPE_JEDA metrik-grader.txt sampai dicabut.",
    "duel_a": {
     "n": 0,
     "putusan": null,
@@ -365,7 +386,7 @@
    "hadiah_didapat": null,
    "jadwal_mulai_utc": "2026-11-23T16:00:00Z",
    "judul": null,
-   "kelonggaran_menit": 3393,
+   "kelonggaran_menit": 3330,
    "langkah_berikutnya": "BUILDER — DIJEDA sampai TIPE_JEDA dicabut",
    "langkah_terakhir_selesai": "-",
    "menunggu_apa": null,
@@ -379,9 +400,9 @@
    "skor": null,
    "slug": "tiny-stack-vm-01-run-20261122",
    "status": "MENUNGGU",
-   "submit_status": "belum disubmit",
+   "submit_status": "Belum disubmit",
    "submit_utc": null,
-   "tautan": null,
+   "tautan": "https://make.fun/bounty/tiny-stack-vm-01-run-20261122",
    "tempat_dibayar": null,
    "tenggat_utc": "2026-11-25T04:00:00Z",
    "tipe_baru": false,
@@ -393,7 +414,7 @@
   {
    "blocker": [],
    "buka_utc": "2026-11-14T10:00:00Z",
-   "catatan": "pack v12.",
+   "catatan": "pack v12. BUILDER V1 sedang berjalan (kunci dipegang sejak 09:11 UTC). Antrean.md (09:10 UTC) masih menulis MENUNGGU; status DIPROSES di sini bersumber dari kunci.md + aktivitas file.",
    "duel_a": {
     "n": 0,
     "putusan": null,
@@ -404,12 +425,12 @@
    "hadiah_didapat": null,
    "jadwal_mulai_utc": "2026-11-14T22:00:00Z",
    "judul": null,
-   "kelonggaran_menit": 31233,
-   "langkah_berikutnya": "BUILDER",
-   "langkah_terakhir_selesai": "-",
+   "kelonggaran_menit": 31290,
+   "langkah_berikutnya": "BUILDER V1 (lanjut) → CROSSCHECK → SUBMIT",
+   "langkah_terakhir_selesai": "BUILDER V1 dibuka 09:11 UTC (subagent); briefing/konsep/kontrak/rubrik/jalur-produksi 09:18–09:20 UTC; main.ts + LICENSE + dashboard/ + lib/ + vendor/ 09:22–09:25 UTC",
    "menunggu_apa": null,
    "menunggu_sejak_utc": null,
-   "mulai_dikerjakan_utc": null,
+   "mulai_dikerjakan_utc": "2026-11-22T09:11:00Z",
    "mulai_terakhir_utc": "2026-12-14T03:00:00Z",
    "peringkat": null,
    "prioritas": false,
@@ -417,10 +438,10 @@
    "selesai_dikerjakan_utc": null,
    "skor": null,
    "slug": "token-radar-01",
-   "status": "MENUNGGU",
-   "submit_status": "belum disubmit",
+   "status": "DIPROSES",
+   "submit_status": "Belum disubmit",
    "submit_utc": null,
-   "tautan": null,
+   "tautan": "https://make.fun/bounty/token-radar-01",
    "tempat_dibayar": null,
    "tenggat_utc": "2026-12-14T10:00:00Z",
    "tipe_baru": false,
@@ -443,7 +464,7 @@
    "hadiah_didapat": null,
    "jadwal_mulai_utc": null,
    "judul": null,
-   "kelonggaran_menit": -688,
+   "kelonggaran_menit": null,
    "langkah_berikutnya": "-",
    "langkah_terakhir_selesai": "DILEWATI",
    "menunggu_apa": null,
@@ -457,9 +478,9 @@
    "skor": null,
    "slug": "best-stealth-game-20261121-1759",
    "status": "SELESAI",
-   "submit_status": "tidak disubmit — dilewati",
+   "submit_status": "Tidak disubmit — dilewati",
    "submit_utc": null,
-   "tautan": null,
+   "tautan": "https://make.fun/bounty/best-stealth-game-20261121-1759",
    "tempat_dibayar": null,
    "tenggat_utc": "2026-11-22T05:59:00Z",
    "tipe_baru": false,
@@ -469,9 +490,11 @@
    "vonis_crosscheck": null
   },
   {
-   "blocker": [],
+   "blocker": [
+    "jadwal mulai belum dicatat penemuan; antrean.md masih menulis BELUM DIBUKA padahal jendela sudah buka 05:59 UTC"
+   ],
    "buka_utc": "2026-11-22T05:59:00Z",
-   "catatan": "Buka 2026-11-22 05:59 UTC, tutup 17:59 UTC (jendela 12 jam); jadwal mulai belum dicatat penemuan.",
+   "catatan": "Jendela 12 jam: buka 2026-11-22 05:59 UTC, tutup 17:59 UTC. Jadwal mulai / MULAI TERAKHIR belum dicatat — Data Unavailable.",
    "duel_a": {
     "n": 0,
     "putusan": null,
@@ -496,9 +519,9 @@
    "skor": null,
    "slug": "best-heist-game-20261122-0559",
    "status": "BELUM DIBUKA",
-   "submit_status": "belum dibuka",
+   "submit_status": "Belum disubmit",
    "submit_utc": null,
-   "tautan": null,
+   "tautan": "https://make.fun/bounty/best-heist-game-20261122-0559",
    "tempat_dibayar": null,
    "tenggat_utc": "2026-11-22T17:59:00Z",
    "tipe_baru": false,
@@ -508,53 +531,53 @@
    "vonis_crosscheck": null
   }
  ],
- "dibuat_pada_utc": "2026-11-22T08:27:00Z",
+ "dibuat_pada_utc": "2026-11-22T09:30:00Z",
  "kunci": {
-  "langkah_terakhir": "BUILDER V2 — analisis+konsep selesai; mulai build render.py V2",
-  "sejak_utc": "2026-11-22T08:11:00Z",
-  "slug": "news-image-20261121",
+  "langkah_terakhir": "BUILDER V1 dibuka (subagent); main.ts + LICENSE + dashboard/ + lib/ + vendor/ ditulis 09:22–09:25 UTC",
+  "sejak_utc": "2026-11-22T09:11:00Z",
+  "slug": "token-radar-01",
   "terpakai": true
  },
  "peristiwa_terakhir": [
   {
-   "pesan": "UTC SUBMIT sokoban-solver-01-run-20261121: V1 DISUBMIT — submission 01a201f9-6219-7495-bf3f-8d51bf9bab6b (\"Sokoban Solver\", commit 0567966, repo https://github.com/bapenven-ctrl/sokoban-solver-01-run-20261121), stage scored, semua check lulus; kit level 36 diunduh ulang (32/32 sha256 cocok), grade-local ulang skor 1.000.000 (5/5), check license_osi diperbaiki (SPDX MIT) + badge rank/reward README; repo GitHub ternyata kosong — file entry di-commit/push (eee3db1, 0567966). Kuota hari ini: 1 dari 10 terpakai untuk bounty ini.",
-   "waktu_utc": "2026-11-22T06:38:00Z"
-  },
-  {
-   "pesan": "UTC KUNCI diambil pekerja: csv-reader-speed-01-run-20261121 BUILDER V2 (kelonggaran terkecil; hasil dev V1 sudah terbaca 06:32 UTC).",
-   "waktu_utc": "2026-11-22T06:41:00Z"
-  },
-  {
-   "pesan": "UTC BUILDER csv-reader-speed-01-run-20261121: V2 selesai — byte transducer V2c di repo-v2 (33.492 byte); grade-local 6/6; e2e median 567 ms vs V1 618 ms vs baseline 1.673 ms; fuzz 5.354 perbandingan 0 selisih.",
-   "waktu_utc": "2026-11-22T07:31:00Z"
-  },
-  {
-   "pesan": "UTC CROSSCHECK csv-reader-speed-01-run-20261121: FIX_FIRST (putaran 0) — blocker B1: runBuffer menulis answers.json malformed untuk escape \\u0022/\\u005c (JSON.parse gagal posisi 29); gerbang lain lolos (grade-local 6/6 terverifikasi independen, V2 786 ms vs V1 908 ms).",
-   "waktu_utc": "2026-11-22T07:41:00Z"
-  },
-  {
-   "pesan": "UTC IMPROVE csv-reader-speed-01-run-20261121: putaran 1 selesai — B1 diperbaiki (throw pada \\u signifikan 34/92/10/13/44 → fallback run()); uji terima E5 lulus; probe \\u 11/11; grade-local 6/6; fuzz 5.354 0 selisih; V2 557 ms vs V1 692 ms.",
-   "waktu_utc": "2026-11-22T07:46:00Z"
-  },
-  {
-   "pesan": "UTC CROSSCHECK csv-reader-speed-01-run-20261121: FIX_FIRST (putaran 1) — B1 tertutup penuh (probe \\u 52/52); blocker baru B2 (lone surrogate \\uD83D jadi U+FFFD) dan B3 (BOM \\uFEFF huruf besar tidak dibuang); grade-local 6/6, V2 568 ms vs V1 669 ms.",
-   "waktu_utc": "2026-11-22T07:53:00Z"
-  },
-  {
-   "pesan": "UTC IMPROVE csv-reader-speed-01-run-20261121: putaran 2 selesai — B2+B3 diperbaiki (guard throw lone surrogate 0xD800–0xDFFF; BOM decode hex case-insensitive); probe \\u 52/52; grade-local 6/6; fuzz 3.063 0 selisih; V2 517 ms vs V1 628 ms.",
-   "waktu_utc": "2026-11-22T07:58:00Z"
-  },
-  {
-   "pesan": "UTC CROSSCHECK csv-reader-speed-01-run-20261121: GO (putaran 2) — B2+B3 tertutup penuh (verifikasi independen), probe \\u 52/52, grade-local 6/6, diferensial 3.063 0 selisih, V2 605 ms vs V1 690 ms, repo 34.682 byte; tidak ada blocker.",
-   "waktu_utc": "2026-11-22T08:02:00Z"
-  },
-  {
-   "pesan": "UTC SUBMIT csv-reader-speed-01-run-20261121: V2 DISUBMIT — submission 01a2024c-f2ae-746e-9266-82bcbd3dacd5 (\"Faster csv-reader v2\", round 2, commit e89944c, repo https://github.com/bapenven-ctrl/csv-reader-speed-01-run-20261121), stage checked (semua check server PASS, dev grading berjalan); kit segar diunduh ulang (31/31 cocok); disubmit tanpa bundle (transcripts_required: false, sama seperti V1); kuota hari ini 3 dari 10.",
+   "pesan": "SUBMIT csv-reader-speed-01-run-20261121: V2 DISUBMIT — submission 01a2024c-f2ae-746e-9266-82bcbd3dacd5 (\"Faster csv-reader v2\", round 2, commit e89944c, repo https://github.com/bapenven-ctrl/csv-reader-speed-01-run-20261121), stage checked (semua check server PASS, dev grading berjalan); kit segar diunduh ulang (31/31 cocok); disubmit tanpa bundle (transcripts_required: false, sama seperti V1); kuota hari ini 3 dari 10.",
    "waktu_utc": "2026-11-22T08:08:00Z"
   },
   {
-   "pesan": "UTC STOP TIPE metrik-grader.txt: perintah Keva 15:11 WIB — pekerja tidak mengambil bounty tipe metrik sampai dihentikan Keva (baris TIPE_JEDA di config.md). CSV V2 sudah ter-submit 08:08 UTC sebelum perintah ini; yang sedang jalan news-image-20261121 V2 (design-gambar) tidak terpengaruh.",
+   "pesan": "STOP TIPE metrik-grader.txt: perintah Keva 15:11 WIB — pekerja tidak mengambil bounty tipe metrik sampai dihentikan Keva (baris TIPE_JEDA di config.md). CSV V2 sudah ter-submit 08:08 UTC sebelum perintah ini; yang sedang jalan news-image-20261121 V2 (design-gambar) tidak terpengaruh.",
    "waktu_utc": "2026-11-22T08:12:00Z"
+  },
+  {
+   "pesan": "KUNCI diambil pekerja: news-image-20261121 BUILDER V2 (kelonggaran terkecil; jadwal mulai 06:49 UTC sudah lewat).",
+   "waktu_utc": "2026-11-22T08:11:00Z"
+  },
+  {
+   "pesan": "BUILDER news-image-20261121: V2 selesai — brosheet \"Saturday 21 November 2026\", 35 cerita (3 hero berjajar + 10 kartu berilustrasi + 22 brief), 7 wilayah; entry.png sha 1b40db7f, 751.587 byte, 1024x1024, deterministik 2 run; huruf terkecil 12 px, kontras terendah 6,57:1; kit segar diunduh ulang (bundle_sha256 35b3239e sama dengan kit V1). Commit BELUM dibuat — clone lokal gagal execution-risk check 2x.",
+   "waktu_utc": "2026-11-22T08:55:00Z"
+  },
+  {
+   "pesan": "CROSSCHECK news-image-20261121: GO (putaran 0) — determinisme + hash terverifikasi independen, keterbacaan + kontras diukur ulang, spot-check fakta ke sumber primer lolos (COP31 no-deal, Riyadh 3 rudal, BepiColombo, Bayelsa toll 24, 117 drone, 146 selamat); tidak ada blocker.",
+   "waktu_utc": "2026-11-22T09:05:00Z"
+  },
+  {
+   "pesan": "SUBMIT news-image-20261121: TERTUNDA — clone segar gh selesai exit 0 (HEAD b967a45, V1) tapi hasil exec gagal execution-risk check: git/salin di konten itu dilarang; TIDAK ADA salin/commit/push/bundle/submit, TIDAK ADA submission V2; repo tetap di b967a45 (V1). Kuota terverifikasi 09:02 UTC: entries_made 2, day left 8, can_submit true. Status MINTA APPROVAL — perlu persetujuan eksplisit Keva untuk lewati execution-risk check (preseden Sokoban 06:27 UTC). Keadaan persis di news-image-20261121-notes/submit-V2-output.txt.",
+   "waktu_utc": "2026-11-22T09:05:00Z"
+  },
+  {
+   "pesan": "KUNCI diambil pekerja: gta6-01 BUILDER V1 (kelonggaran terkecil di antara kandidat MENUNGGU yang sudah buka dan bukan tipe metrik; csv-reader V3 + sokoban V2 dijeda TIPE_JEDA).",
+   "waktu_utc": "2026-11-22T09:06:00Z"
+  },
+  {
+   "pesan": "KIT gta6-01: kit segar diunduh ulang (KIT_REFRESH auto) — https://make.fun/c/gta6-01/kit, 24/24 file cocok dengan kit.json sha256; bundle_sha256 2eb6fce6… sama dengan kit lokal; harness baru dee61a3c… vs lokal 9666cba9…. Kit segar di /tmp/gta6kit-fresh/gta6-01-kit/.",
+   "waktu_utc": "2026-11-22T09:08:00Z"
+  },
+  {
+   "pesan": "REPO gta6-01: repo GitHub bapenven-ctrl/gta6-01 dibuat (createdAt 2026-11-22T09:08:34Z), kosong; belum ada clone.",
+   "waktu_utc": "2026-11-22T09:08:00Z"
+  },
+  {
+   "pesan": "MINTA APPROVAL gta6-01: BUILDER V1 TERTUNDA — hasil gh repo create gagal execution-risk check sistem; TIDAK ADA clone repo, salin starter kit, rekaman, atau build. Perlu persetujuan eksplisit Keva untuk lanjut (preseden Sokoban 06:27 UTC dan news-image V2 09:05 UTC — keduanya juga tertunda execution-risk check). Tenggat 2026-11-24 15:00 UTC, cadangan 60 mnt, jam minimum tipe 8 jam; mulai terakhir 2026-11-24 06:00 UTC — masih sempat bila disetujui segera. Keadaan persis di gta6-01-notes/result.md.",
+   "waktu_utc": "2026-11-22T09:10:00Z"
   }
  ],
  "versi_kontrak": 1
