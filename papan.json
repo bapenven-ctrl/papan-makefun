@@ -3,7 +3,7 @@
   {
    "blocker": [],
    "buka_utc": "2026-11-21T03:00:00Z",
-   "catatan": "pack v12. V1 DISUBMIT 06:37 UTC (stage scored, semua check lulus); skor practice 1.000.000 (5/5 tepat P*), baseline 200.000, run 0,37 dtk, repo 33.636 byte. Kit level 36 diunduh ulang (32/32 sha256 cocok), grade-local ulang 1.000.000. Hasil dev (skor/rank) belum terbaca; hasil resmi setelah entry tutup 2026-11-23 03:00 UTC.",
+   "catatan": "pack v12. V1 DISUBMIT 06:37 UTC (stage scored, semua check lulus); skor practice 1.000.000 (5/5 tepat P*), baseline 200.000, run 0,37 dtk, repo 33.636 byte. Kit level 36 diunduh ulang (32/32 sha256 cocok), grade-local ulang 1.000.000. Hasil dev (skor/rank) belum terbaca; hasil resmi setelah entry tutup 2026-11-23 03:00 UTC. DIJEDA: TIPE_JEDA metrik-grader.txt (perintah Keva 15:11 WIB) sampai dicabut; V2 menunggu pencabutan jeda.",
    "duel_a": {
     "n": 0,
     "putusan": null,
@@ -14,8 +14,8 @@
    "hadiah_didapat": null,
    "jadwal_mulai_utc": "2026-11-22T03:00:00Z",
    "judul": "Build the best Sokoban solver, 21 November 2026",
-   "kelonggaran_menit": 1143,
-   "langkah_berikutnya": "BUILDER (V2)",
+   "kelonggaran_menit": 1083,
+   "langkah_berikutnya": "BUILDER (V2) — DIJEDA sampai TIPE_JEDA dicabut",
    "langkah_terakhir_selesai": "BUILDER + CROSSCHECK GO putaran 2 (05:39 UTC); V1 DISUBMIT 06:37 UTC (submission 01a201f9-6219-7495-bf3f-8d51bf9bab6b, commit 0567966, stage scored)",
    "menunggu_apa": null,
    "menunggu_sejak_utc": null,
@@ -53,7 +53,7 @@
    "hadiah_didapat": null,
    "jadwal_mulai_utc": "2026-11-21T13:00:00Z",
    "judul": null,
-   "kelonggaran_menit": 753,
+   "kelonggaran_menit": 693,
    "langkah_berikutnya": "-",
    "langkah_terakhir_selesai": "BUILDER berhenti 06:00 UTC — kanal tidak tersedia; SKIP final Keva",
    "menunggu_apa": null,
@@ -81,7 +81,7 @@
   {
    "blocker": [],
    "buka_utc": null,
-   "catatan": "pack v12 (V2). V1 disubmit 01:05 UTC, skor 982.336, rank #493/11.805, di luar 50 besar (bar #50: 988.379). V1 dibangun di sistem lama — bukan pack v12, vonis crosscheck v12 tidak ada.",
+   "catatan": "pack v12 (V2 sedang dikerjakan; kunci sejak 08:11 UTC). V1 disubmit 01:05 UTC, skor 982.336, rank #493/11.805, di luar 50 besar (bar #50: 988.379). V1 dibangun di sistem lama — bukan pack v12, vonis crosscheck v12 tidak ada. Jalur V2: prosedural, render.py baru + main.py stdlib-only, repo V1 yang sama dipakai.",
    "duel_a": {
     "n": 0,
     "putusan": null,
@@ -92,12 +92,12 @@
    "hadiah_didapat": null,
    "jadwal_mulai_utc": "2026-11-22T06:49:00Z",
    "judul": null,
-   "kelonggaran_menit": 813,
-   "langkah_berikutnya": "BUILDER",
-   "langkah_terakhir_selesai": "V1 disubmit",
+   "kelonggaran_menit": 753,
+   "langkah_berikutnya": "BUILDER (lanjut render.py V2)",
+   "langkah_terakhir_selesai": "V1 disubmit 01:05 UTC (skor 982.336, rank #493/11.805); analisis+konsep V2 selesai 08:11-08:23 UTC, mulai build render.py V2",
    "menunggu_apa": null,
    "menunggu_sejak_utc": null,
-   "mulai_dikerjakan_utc": null,
+   "mulai_dikerjakan_utc": "2026-11-22T08:11:00Z",
    "mulai_terakhir_utc": "2026-11-22T21:00:00Z",
    "peringkat": 493,
    "prioritas": false,
@@ -105,7 +105,7 @@
    "selesai_dikerjakan_utc": null,
    "skor": 982.336,
    "slug": "news-image-20261121",
-   "status": "MENUNGGU",
+   "status": "DIPROSES",
    "submit_status": "V1 disubmit; V2 belum dikerjakan",
    "submit_utc": "2026-11-22T01:05:00Z",
    "tautan": null,
@@ -120,7 +120,7 @@
   {
    "blocker": [],
    "buka_utc": "2026-11-21T02:42:00Z",
-   "catatan": "pack v12 (V2 sedang dikerjakan; V1 mulai 04:05 UTC). V1: gate-local 6/6, solve() 5,72x baseline, 8.622 perbandingan diferensial 0 selisih. Percobaan submit pertama ditolak 422 repo_readme, diperbaiki lalu lolos. Skor = CPU dev 1.470.000 µs (trimmed mean), lolos 6/6, tanpa efficiency reward; papan atas 0 µs.",
+   "catatan": "pack v12 (V2). V1: gate-local 6/6, solve() 5,72x baseline, 8.622 perbandingan diferensial 0 selisih. Percobaan submit pertama ditolak 422 repo_readme, diperbaiki lalu lolos. Skor dev V1 = CPU 1.470.000 µs (trimmed mean), lolos 6/6, tanpa efficiency reward; papan atas 0 µs. V2: byte transducer, grade-local 6/6, crosscheck GO putaran 2 (08:02 UTC). DIJEDA: TIPE_JEDA metrik-grader.txt (perintah Keva 15:11 WIB) sampai dicabut; V3 menunggu hasil dev V2 + pencabutan jeda.",
    "duel_a": {
     "n": 0,
     "putusan": null,
@@ -131,22 +131,22 @@
    "hadiah_didapat": null,
    "jadwal_mulai_utc": "2026-11-22T06:32:00Z",
    "judul": null,
-   "kelonggaran_menit": 1125,
-   "langkah_berikutnya": "BUILDER (V2, sedang berjalan)",
-   "langkah_terakhir_selesai": "V1 disubmit 05:51 UTC (submission 01a201cf-4d58-7729-99fa-f130f7e67237, commit 73f593a); dev terbaca 06:32 UTC: rank #3759/8447, CPU 1.470.000 µs; BUILDER V2 berjalan sejak 06:41 UTC (V2c: practice 6/6, edge 282/282, fuzz 5000/5000; benchmark berjalan)",
+   "kelonggaran_menit": 1065,
+   "langkah_berikutnya": "BUILDER (V3, setelah hasil dev V2 terbaca DAN pencabutan TIPE_JEDA)",
+   "langkah_terakhir_selesai": "V2 disubmit 08:08 UTC (submission 01a2024c-f2ae-746e-9266-82bcbd3dacd5, commit e89944c, stage checked); V1 disubmit 05:51 UTC (submission 01a201cf-4d58-7729-99fa-f130f7e67237); dev V1: rank #3759/8447, CPU 1.470.000 µs",
    "menunggu_apa": null,
    "menunggu_sejak_utc": null,
    "mulai_dikerjakan_utc": "2026-11-22T06:41:00Z",
    "mulai_terakhir_utc": "2026-11-23T02:12:00Z",
    "peringkat": 3759,
    "prioritas": false,
-   "putaran": null,
-   "selesai_dikerjakan_utc": null,
+   "putaran": 2,
+   "selesai_dikerjakan_utc": "2026-11-22T08:10:00Z",
    "skor": 1470000,
    "slug": "csv-reader-speed-01-run-20261121",
-   "status": "DIPROSES",
-   "submit_status": "V1 disubmit, stage scored; hasil dev terbaca 06:32 UTC: rank #3759/8447, CPU 1.470.000 µs; V2 BUILDER berjalan",
-   "submit_utc": "2026-11-22T05:51:00Z",
+   "status": "MENUNGGU",
+   "submit_status": "V1 disubmit, stage scored; V2 disubmit 08:08 UTC, stage checked, dev grading berjalan",
+   "submit_utc": "2026-11-22T08:08:00Z",
    "tautan": null,
    "tempat_dibayar": null,
    "tenggat_utc": "2026-11-23T02:42:00Z",
@@ -170,7 +170,7 @@
    "hadiah_didapat": null,
    "jadwal_mulai_utc": "2026-11-21T14:00:00Z",
    "judul": null,
-   "kelonggaran_menit": 1533,
+   "kelonggaran_menit": 1473,
    "langkah_berikutnya": "-",
    "langkah_terakhir_selesai": "Pekerja 06:05 UTC: tidak dibangun — butuh akun X publik + keputusan Garap/Skip Keva",
    "menunggu_apa": "keputusan Garap/Skip Keva + akun X publik bila Garap",
@@ -209,7 +209,7 @@
    "hadiah_didapat": null,
    "jadwal_mulai_utc": "2026-11-23T00:00:00Z",
    "judul": null,
-   "kelonggaran_menit": 2253,
+   "kelonggaran_menit": 2193,
    "langkah_berikutnya": "BUILDER",
    "langkah_terakhir_selesai": "-",
    "menunggu_apa": null,
@@ -248,7 +248,7 @@
    "hadiah_didapat": null,
    "jadwal_mulai_utc": "2026-11-21T03:00:00Z",
    "judul": null,
-   "kelonggaran_menit": 2793,
+   "kelonggaran_menit": 2733,
    "langkah_berikutnya": "BUILDER",
    "langkah_terakhir_selesai": "-",
    "menunggu_apa": null,
@@ -276,7 +276,7 @@
   {
    "blocker": [],
    "buka_utc": "2026-11-10T17:00:00Z",
-   "catatan": "sistem lama — bukan pack v12 (golf12/D1, gate Tahap B NO-GO) — keputusan Keva tertunda.",
+   "catatan": "sistem lama — bukan pack v12 (golf12/D1, gate Tahap B NO-GO) — keputusan Keva tertunda. DIJEDA: TIPE_JEDA metrik-grader.txt (perintah Keva 15:11 WIB) sampai dicabut.",
    "duel_a": {
     "n": 0,
     "putusan": null,
@@ -287,8 +287,8 @@
    "hadiah_didapat": null,
    "jadwal_mulai_utc": "2026-11-11T05:00:00Z",
    "judul": null,
-   "kelonggaran_menit": 2793,
-   "langkah_berikutnya": "BUILDER",
+   "kelonggaran_menit": 2733,
+   "langkah_berikutnya": "BUILDER — DIJEDA sampai TIPE_JEDA dicabut",
    "langkah_terakhir_selesai": "-",
    "menunggu_apa": null,
    "menunggu_sejak_utc": null,
@@ -326,7 +326,7 @@
    "hadiah_didapat": null,
    "jadwal_mulai_utc": "2026-11-23T07:00:00Z",
    "judul": null,
-   "kelonggaran_menit": 3273,
+   "kelonggaran_menit": 3213,
    "langkah_berikutnya": "BUILDER",
    "langkah_terakhir_selesai": "-",
    "menunggu_apa": null,
@@ -354,7 +354,7 @@
   {
    "blocker": [],
    "buka_utc": "2026-11-22T04:00:00Z",
-   "catatan": "pack v12.",
+   "catatan": "pack v12. DIJEDA: TIPE_JEDA metrik-grader.txt (perintah Keva 15:11 WIB) sampai dicabut.",
    "duel_a": {
     "n": 0,
     "putusan": null,
@@ -365,8 +365,8 @@
    "hadiah_didapat": null,
    "jadwal_mulai_utc": "2026-11-23T16:00:00Z",
    "judul": null,
-   "kelonggaran_menit": 3453,
-   "langkah_berikutnya": "BUILDER",
+   "kelonggaran_menit": 3393,
+   "langkah_berikutnya": "BUILDER — DIJEDA sampai TIPE_JEDA dicabut",
    "langkah_terakhir_selesai": "-",
    "menunggu_apa": null,
    "menunggu_sejak_utc": null,
@@ -404,7 +404,7 @@
    "hadiah_didapat": null,
    "jadwal_mulai_utc": "2026-11-14T22:00:00Z",
    "judul": null,
-   "kelonggaran_menit": 31353,
+   "kelonggaran_menit": 31233,
    "langkah_berikutnya": "BUILDER",
    "langkah_terakhir_selesai": "-",
    "menunggu_apa": null,
@@ -443,7 +443,7 @@
    "hadiah_didapat": null,
    "jadwal_mulai_utc": null,
    "judul": null,
-   "kelonggaran_menit": -628,
+   "kelonggaran_menit": -688,
    "langkah_berikutnya": "-",
    "langkah_terakhir_selesai": "DILEWATI",
    "menunggu_apa": null,
@@ -508,53 +508,53 @@
    "vonis_crosscheck": null
   }
  ],
- "dibuat_pada_utc": "2026-11-22T07:29:37Z",
+ "dibuat_pada_utc": "2026-11-22T08:27:00Z",
  "kunci": {
-  "langkah_terakhir": "BUILDER V2 — V2c byte transducer: practice 6/6, edge 282/282, fuzz 5000/5000; benchmark berjalan",
-  "sejak_utc": "2026-11-22T06:41:00Z",
-  "slug": "csv-reader-speed-01-run-20261121",
+  "langkah_terakhir": "BUILDER V2 — analisis+konsep selesai; mulai build render.py V2",
+  "sejak_utc": "2026-11-22T08:11:00Z",
+  "slug": "news-image-20261121",
   "terpakai": true
  },
  "peristiwa_terakhir": [
   {
-   "pesan": "CROSSCHECK sokoban-solver-01-run-20261121: GO (putaran 2) — scorer resmi kit 1.000.000, passed=1; baseline diukur ulang 200.000.",
-   "waktu_utc": "2026-11-22T05:39:00Z"
-  },
-  {
-   "pesan": "SUBMIT sokoban-solver-01-run-20261121: TERTUNDA — repo GitHub https://github.com/bapenven-ctrl/sokoban-solver-01-run-20261121 dibuat + init anchor cfd641b (round 34174248); runner berhenti karena pemberitahuan keamanan (execution-risk check) atas konten repo/kit; file entry belum disalin/commit/push, belum ada submission id. Status MINTA APPROVAL — perlu persetujuan eksplisit Keva untuk lanjut. Kit lokal level 35 vs situs level 36 (belum diputuskan).",
-   "waktu_utc": "2026-11-22T05:43:00Z"
-  },
-  {
-   "pesan": "csv-reader-speed-01-run-20261121: MINTA APPROVAL -> MENUNGGU + PRIORITAS, langkah berikutnya SUBMIT — SUBMIT_MODE diubah Keva menjadi auto 22 Nov 2026, vonis GO sejak 04:34 UTC",
-   "waktu_utc": "2026-11-22T05:46:00Z"
-  },
-  {
-   "pesan": "SUBMIT csv-reader-speed-01-run-20261121: V1 DISUBMIT — submission 01a201cf-4d58-7729-99fa-f130f7e67237 (\"Faster csv-reader\", commit 73f593a, repo https://github.com/bapenven-ctrl/csv-reader-speed-01-run-20261121), stage checked, dev grading berjalan; percobaan pertama ditolak 422 repo_readme (tanpa badge rank/reward, tidak dihitung kuota), diperbaiki lalu submit ulang lolos; check license_osi sempat gagal lalu diperbaiki (SPDX MIT).",
-   "waktu_utc": "2026-11-22T05:51:00Z"
-  },
-  {
-   "pesan": "MATI gta6-clipper-01: BUILDER berhenti — tidak ada kanal YouTube Keva yang siap dipakai; Keva sudah SKIP final 2026-11-20 ~06:46 WIB (\"Skip gta6-clipper-01\", memory/2026-11-20.md#L2217: \"Final SKIP decision; do not re-notify or build it\"); antrean v12 salah memuatnya sebagai MENUNGGU sejak 04:02 UTC. Catatan builder di gta6-clipper-01-notes/ (briefing, kontrak-penilai, rubrik, konsep, result); tidak ada kandidat/repo/submit. Tidak butuh keputusan baru dari Keva.",
-   "waktu_utc": "2026-11-22T06:00:00Z"
-  },
-  {
-   "pesan": "MINTA APPROVAL gta6-meme-x-01: tidak dibangun — butuh akun X publik (aktivitas akun sosial, CORE 4) + keputusan Garap/Skip Keva; briefing 2026-11-20 merekomendasi Skip, belum ada keputusan final (Pending User Decision sejak 2026-11-21 di sistem lama); tanpa keduanya pekerja tidak menyentuh bounty ini.",
-   "waktu_utc": "2026-11-22T06:06:00Z"
-  },
-  {
-   "pesan": "APPROVAL sokoban-solver-01-run-20261121: Keva menyetujui eksplisit lanjut submit (chat Bounty Automation 13:26 WIB) + unduh ulang kit level 36 dulu; status MINTA APPROVAL -> MENUNGGU + PRIORITAS, langkah berikutnya SUBMIT. Aturan tetap baru dari Keva: selalu izinkan unduh otomatis kit terbaru.",
-   "waktu_utc": "2026-11-22T06:27:00Z"
-  },
-  {
-   "pesan": "DEV csv-reader-speed-01-run-20261121: hasil dev V1 terbaca via leaderboard (browser): rank #3759/8447, CPU 1.470.000 µs (trimmed mean), lolos 6/6, tanpa efficiency reward; papan atas 0 µs (transducer WASM SIMD). Syarat mulai V2 terpenuhi.",
-   "waktu_utc": "2026-11-22T06:32:00Z"
-  },
-  {
-   "pesan": "KUNCI diambil pekerja: sokoban-solver-01-run-20261121 SUBMIT V1 (PRIORITAS — persetujuan eksplisit Keva 13:26 WIB + KIT_REFRESH auto).",
-   "waktu_utc": "2026-11-22T06:33:00Z"
-  },
-  {
-   "pesan": "SUBMIT sokoban-solver-01-run-20261121: V1 DISUBMIT — submission 01a201f9-6219-7495-bf3f-8d51bf9bab6b (\"Sokoban Solver\", commit 0567966, repo https://github.com/bapenven-ctrl/sokoban-solver-01-run-20261121), stage scored, semua check lulus; kit level 36 diunduh ulang (32/32 sha256 cocok), grade-local ulang skor 1.000.000 (5/5), check license_osi diperbaiki (SPDX MIT) + badge rank/reward README; repo GitHub ternyata kosong — file entry di-commit/push (eee3db1, 0567966). Kuota hari ini: 1 dari 10 terpakai untuk bounty ini.",
+   "pesan": "UTC SUBMIT sokoban-solver-01-run-20261121: V1 DISUBMIT — submission 01a201f9-6219-7495-bf3f-8d51bf9bab6b (\"Sokoban Solver\", commit 0567966, repo https://github.com/bapenven-ctrl/sokoban-solver-01-run-20261121), stage scored, semua check lulus; kit level 36 diunduh ulang (32/32 sha256 cocok), grade-local ulang skor 1.000.000 (5/5), check license_osi diperbaiki (SPDX MIT) + badge rank/reward README; repo GitHub ternyata kosong — file entry di-commit/push (eee3db1, 0567966). Kuota hari ini: 1 dari 10 terpakai untuk bounty ini.",
    "waktu_utc": "2026-11-22T06:38:00Z"
+  },
+  {
+   "pesan": "UTC KUNCI diambil pekerja: csv-reader-speed-01-run-20261121 BUILDER V2 (kelonggaran terkecil; hasil dev V1 sudah terbaca 06:32 UTC).",
+   "waktu_utc": "2026-11-22T06:41:00Z"
+  },
+  {
+   "pesan": "UTC BUILDER csv-reader-speed-01-run-20261121: V2 selesai — byte transducer V2c di repo-v2 (33.492 byte); grade-local 6/6; e2e median 567 ms vs V1 618 ms vs baseline 1.673 ms; fuzz 5.354 perbandingan 0 selisih.",
+   "waktu_utc": "2026-11-22T07:31:00Z"
+  },
+  {
+   "pesan": "UTC CROSSCHECK csv-reader-speed-01-run-20261121: FIX_FIRST (putaran 0) — blocker B1: runBuffer menulis answers.json malformed untuk escape \\u0022/\\u005c (JSON.parse gagal posisi 29); gerbang lain lolos (grade-local 6/6 terverifikasi independen, V2 786 ms vs V1 908 ms).",
+   "waktu_utc": "2026-11-22T07:41:00Z"
+  },
+  {
+   "pesan": "UTC IMPROVE csv-reader-speed-01-run-20261121: putaran 1 selesai — B1 diperbaiki (throw pada \\u signifikan 34/92/10/13/44 → fallback run()); uji terima E5 lulus; probe \\u 11/11; grade-local 6/6; fuzz 5.354 0 selisih; V2 557 ms vs V1 692 ms.",
+   "waktu_utc": "2026-11-22T07:46:00Z"
+  },
+  {
+   "pesan": "UTC CROSSCHECK csv-reader-speed-01-run-20261121: FIX_FIRST (putaran 1) — B1 tertutup penuh (probe \\u 52/52); blocker baru B2 (lone surrogate \\uD83D jadi U+FFFD) dan B3 (BOM \\uFEFF huruf besar tidak dibuang); grade-local 6/6, V2 568 ms vs V1 669 ms.",
+   "waktu_utc": "2026-11-22T07:53:00Z"
+  },
+  {
+   "pesan": "UTC IMPROVE csv-reader-speed-01-run-20261121: putaran 2 selesai — B2+B3 diperbaiki (guard throw lone surrogate 0xD800–0xDFFF; BOM decode hex case-insensitive); probe \\u 52/52; grade-local 6/6; fuzz 3.063 0 selisih; V2 517 ms vs V1 628 ms.",
+   "waktu_utc": "2026-11-22T07:58:00Z"
+  },
+  {
+   "pesan": "UTC CROSSCHECK csv-reader-speed-01-run-20261121: GO (putaran 2) — B2+B3 tertutup penuh (verifikasi independen), probe \\u 52/52, grade-local 6/6, diferensial 3.063 0 selisih, V2 605 ms vs V1 690 ms, repo 34.682 byte; tidak ada blocker.",
+   "waktu_utc": "2026-11-22T08:02:00Z"
+  },
+  {
+   "pesan": "UTC SUBMIT csv-reader-speed-01-run-20261121: V2 DISUBMIT — submission 01a2024c-f2ae-746e-9266-82bcbd3dacd5 (\"Faster csv-reader v2\", round 2, commit e89944c, repo https://github.com/bapenven-ctrl/csv-reader-speed-01-run-20261121), stage checked (semua check server PASS, dev grading berjalan); kit segar diunduh ulang (31/31 cocok); disubmit tanpa bundle (transcripts_required: false, sama seperti V1); kuota hari ini 3 dari 10.",
+   "waktu_utc": "2026-11-22T08:08:00Z"
+  },
+  {
+   "pesan": "UTC STOP TIPE metrik-grader.txt: perintah Keva 15:11 WIB — pekerja tidak mengambil bounty tipe metrik sampai dihentikan Keva (baris TIPE_JEDA di config.md). CSV V2 sudah ter-submit 08:08 UTC sebelum perintah ini; yang sedang jalan news-image-20261121 V2 (design-gambar) tidak terpengaruh.",
+   "waktu_utc": "2026-11-22T08:12:00Z"
   }
  ],
  "versi_kontrak": 1
