@@ -3,22 +3,22 @@
   {
    "blocker": [],
    "buka_utc": "2026-11-21T02:42:00Z",
-   "catatan": "pack v12. solve() 5,72x vs baseline (lokal); grade-local 6/6 passed=1; 8.622 perbandingan diferensial 0 selisih. Catatan antrean.md masih MENUNGGU (ditulis 04:02 UTC, sebelum pekerja mengambilnya 04:05 UTC).",
+   "catatan": "pack v12. V1 siap, vonis crosscheck GO 04:34 UTC; gate-local 6/6; solve() 4,6-5,7x baseline; 8.622 + 7.362 perbandingan diferensial 0 selisih. SUBMIT_MODE manual saat vonis, diubah ke auto 05:13 UTC (12:13 WIB); tetapi bounty MINTA APPROVAL tidak pernah diambil pekerja — perlu jawaban inbox (catatan-csv-reader-speed-01-run-20261121-1.txt) agar kembali MENUNGGU + PRIORITAS, lalu pekerja submit sendiri.",
    "duel_a": {
     "n": 0,
     "putusan": null,
     "win_rate": null
    },
-   "file_inbox": null,
+   "file_inbox": "catatan-csv-reader-speed-01-run-20261121-1.txt",
    "hadiah": "$100",
    "hadiah_didapat": null,
    "jadwal_mulai_utc": null,
    "judul": null,
-   "kelonggaran_menit": 705,
-   "langkah_berikutnya": "crosscheck, lalu submit manual",
-   "langkah_terakhir_selesai": "BUILDER V1 — kandidat siap 04:26 UTC",
-   "menunggu_apa": null,
-   "menunggu_sejak_utc": null,
+   "kelonggaran_menit": 639,
+   "langkah_berikutnya": "SUBMIT — menunggu jawaban inbox (SUBMIT_MODE kini auto)",
+   "langkah_terakhir_selesai": "BUILDER + CROSSCHECK GO (04:34 UTC)",
+   "menunggu_apa": "approval Keva untuk submit V1 (vonis crosscheck GO)",
+   "menunggu_sejak_utc": "2026-11-22T04:34:00Z",
    "mulai_dikerjakan_utc": "2026-11-22T04:05:00Z",
    "mulai_terakhir_utc": "2026-11-22T16:12:00Z",
    "peringkat": null,
@@ -27,8 +27,8 @@
    "selesai_dikerjakan_utc": null,
    "skor": null,
    "slug": "csv-reader-speed-01-run-20261121",
-   "status": "DIPROSES",
-   "submit_status": "belum disubmit — kandidat V1 siap",
+   "status": "MINTA APPROVAL",
+   "submit_status": "belum disubmit — kandidat V1 siap, repo lokal",
    "submit_utc": null,
    "tautan": null,
    "tempat_dibayar": null,
@@ -37,12 +37,17 @@
    "total_peserta": null,
    "type_card": "metrik-grader.txt",
    "versi": 1,
-   "vonis_crosscheck": null
+   "vonis_crosscheck": "GO"
   },
   {
-   "blocker": [],
+   "blocker": [
+    "B1 Kontrak I/O salah (KRITIS) — entry crash ENOENT, skor 0 pada grader nyata",
+    "B2 Date.now() membaca jam dinding, dilarang RULES.txt (KRITIS)",
+    "B3 Level 3-4 room (i004/i005) tidak terselesaikan, bahkan 45 dtk/level (TINGGI)",
+    "B4 Fase eksak mengoptimalkan langkah, bukan pushes — i002 18 pushes vs P*=16 (SEDANG)"
+   ],
    "buka_utc": "2026-11-21T03:00:00Z",
-   "catatan": "pack v12. Jadwal mulai: segera (titik tengah sudah lewat); bisa digarap cron segera bila kunci kosong dan giliran kelonggarannya sampai.",
+   "catatan": "pack v12. Jadwal mulai: segera (titik tengah sudah lewat). BUILDER V1 selesai 04:58 UTC; CROSSCHECK V1 05:00-05:10 UTC vonis FIX_FIRST. Inti solver (solve.js) skor 488.889 vs baseline house plain-astar 1.0.0 200.000 pada practice set (checker kit); entry sebagaimana dibangun skor 0 (crash ENOENT). Antrean.md (04:34 UTC) masih mencatat MENUNGGU; status DIPROSES mengikuti kunci.md (05:09 UTC) + crosscheck-v1.md.",
    "duel_a": {
     "n": 0,
     "putusan": null,
@@ -52,31 +57,31 @@
    "hadiah": "$100",
    "hadiah_didapat": null,
    "jadwal_mulai_utc": null,
-   "judul": null,
-   "kelonggaran_menit": 723,
-   "langkah_berikutnya": "BUILDER (berjalan)",
-   "langkah_terakhir_selesai": null,
+   "judul": "Build the best Sokoban solver, 21 November 2026",
+   "kelonggaran_menit": 657,
+   "langkah_berikutnya": "IMPROVE (putaran 2) — perbaiki B1-B4, lalu CROSSCHECK lagi",
+   "langkah_terakhir_selesai": "CROSSCHECK V1 — vonis FIX_FIRST 05:09 UTC; IMPROVE (putaran 2) dibuka",
    "menunggu_apa": null,
    "menunggu_sejak_utc": null,
    "mulai_dikerjakan_utc": "2026-11-22T04:34:00Z",
    "mulai_terakhir_utc": "2026-11-22T16:30:00Z",
    "peringkat": null,
    "prioritas": false,
-   "putaran": null,
+   "putaran": 2,
    "selesai_dikerjakan_utc": null,
    "skor": null,
    "slug": "sokoban-solver-01-run-20261121",
    "status": "DIPROSES",
-   "submit_status": null,
+   "submit_status": "belum disubmit",
    "submit_utc": null,
-   "tautan": null,
-   "tempat_dibayar": null,
+   "tautan": "https://make.fun/bounty/sokoban-solver-01-run-20261121",
+   "tempat_dibayar": 10,
    "tenggat_utc": "2026-11-23T03:00:00Z",
    "tipe_baru": false,
    "total_peserta": null,
    "type_card": "metrik-grader.txt",
    "versi": 1,
-   "vonis_crosscheck": null
+   "vonis_crosscheck": "FIX_FIRST"
   },
   {
    "blocker": [
@@ -94,7 +99,7 @@
    "hadiah_didapat": null,
    "jadwal_mulai_utc": null,
    "judul": null,
-   "kelonggaran_menit": 933,
+   "kelonggaran_menit": 867,
    "langkah_berikutnya": "BUILDER",
    "langkah_terakhir_selesai": null,
    "menunggu_apa": null,
@@ -133,7 +138,7 @@
    "hadiah_didapat": null,
    "jadwal_mulai_utc": "2026-11-22T06:49:00Z",
    "judul": null,
-   "kelonggaran_menit": 993,
+   "kelonggaran_menit": 927,
    "langkah_berikutnya": "BUILDER",
    "langkah_terakhir_selesai": "V1 disubmit",
    "menunggu_apa": null,
@@ -150,7 +155,7 @@
    "submit_status": "V1 disubmit; V2 belum dikerjakan",
    "submit_utc": "2026-11-22T01:05:00Z",
    "tautan": null,
-   "tempat_dibayar": null,
+   "tempat_dibayar": 50,
    "tenggat_utc": "2026-11-23T00:00:00Z",
    "tipe_baru": false,
    "total_peserta": 11805,
@@ -174,7 +179,7 @@
    "hadiah_didapat": null,
    "jadwal_mulai_utc": null,
    "judul": null,
-   "kelonggaran_menit": 1713,
+   "kelonggaran_menit": 1647,
    "langkah_berikutnya": "BUILDER",
    "langkah_terakhir_selesai": null,
    "menunggu_apa": null,
@@ -213,7 +218,7 @@
    "hadiah_didapat": null,
    "jadwal_mulai_utc": "2026-11-23T00:00:00Z",
    "judul": null,
-   "kelonggaran_menit": 2433,
+   "kelonggaran_menit": 2367,
    "langkah_berikutnya": "BUILDER",
    "langkah_terakhir_selesai": null,
    "menunggu_apa": null,
@@ -254,7 +259,7 @@
    "hadiah_didapat": null,
    "jadwal_mulai_utc": null,
    "judul": null,
-   "kelonggaran_menit": 2973,
+   "kelonggaran_menit": 2907,
    "langkah_berikutnya": "BUILDER",
    "langkah_terakhir_selesai": null,
    "menunggu_apa": null,
@@ -295,7 +300,7 @@
    "hadiah_didapat": null,
    "jadwal_mulai_utc": null,
    "judul": null,
-   "kelonggaran_menit": 2973,
+   "kelonggaran_menit": 2907,
    "langkah_berikutnya": "BUILDER",
    "langkah_terakhir_selesai": null,
    "menunggu_apa": null,
@@ -336,7 +341,7 @@
    "hadiah_didapat": null,
    "jadwal_mulai_utc": "2026-11-23T07:00:00Z",
    "judul": null,
-   "kelonggaran_menit": 3453,
+   "kelonggaran_menit": 3387,
    "langkah_berikutnya": "BUILDER",
    "langkah_terakhir_selesai": null,
    "menunggu_apa": null,
@@ -375,7 +380,7 @@
    "hadiah_didapat": null,
    "jadwal_mulai_utc": "2026-11-23T16:00:00Z",
    "judul": null,
-   "kelonggaran_menit": 3633,
+   "kelonggaran_menit": 3567,
    "langkah_berikutnya": "BUILDER",
    "langkah_terakhir_selesai": null,
    "menunggu_apa": null,
@@ -414,7 +419,7 @@
    "hadiah_didapat": null,
    "jadwal_mulai_utc": null,
    "judul": null,
-   "kelonggaran_menit": 31593,
+   "kelonggaran_menit": 31527,
    "langkah_berikutnya": "BUILDER",
    "langkah_terakhir_selesai": null,
    "menunggu_apa": null,
@@ -518,29 +523,41 @@
    "vonis_crosscheck": null
   }
  ],
- "dibuat_pada_utc": "2026-11-22T04:27:00Z",
+ "dibuat_pada_utc": "2026-11-22T05:32:20Z",
  "kunci": {
-  "terpakai": true,
-  "slug": "sokoban-solver-01-run-20261121",
+  "langkah_terakhir": "CROSSCHECK V1 FIX_FIRST 05:09 UTC — IMPROVE (putaran 2) dibuka",
   "sejak_utc": "2026-11-22T04:34:00Z",
-  "langkah_terakhir": "BUILDER V1 dibuka 04:34 UTC — sesi builder berjalan"
+  "slug": "sokoban-solver-01-run-20261121",
+  "terpakai": true
  },
  "peristiwa_terakhir": [
   {
-   "pesan": "PENEMUAN: 13 bounty dicatat (11 MENUNGGU, 1 SELESAI dilewati, 1 BELUM DIBUKA); antrean v12 pertama kali terisi.",
+   "pesan": "UTC PENEMUAN: 13 bounty dicatat (11 MENUNGGU, 1 SELESAI dilewati, 1 BELUM DIBUKA); antrean v12 pertama kali terisi.",
    "waktu_utc": "2026-11-22T04:02:00Z"
   },
   {
-   "pesan": "SELESAI best-stealth-game-20261121-1759: DILEWATI — sisa 57 mnt setelah cadangan 60 mnt < jam minimum 8 jam (tenggat 2026-11-22 05:59 UTC).",
+   "pesan": "UTC SELESAI best-stealth-game-20261121-1759: DILEWATI — sisa 57 mnt setelah cadangan 60 mnt < jam minimum 8 jam (tenggat 2026-11-22 05:59 UTC).",
    "waktu_utc": "2026-11-22T04:02:00Z"
   },
   {
-   "pesan": "BELUM DIBUKA best-heist-game-20261122-0559: buka 2026-11-22 05:59 UTC, tutup 17:59 UTC.",
+   "pesan": "UTC BELUM DIBUKA best-heist-game-20261122-0559: buka 2026-11-22 05:59 UTC, tutup 17:59 UTC.",
    "waktu_utc": "2026-11-22T04:02:00Z"
   },
   {
-   "pesan": "news-image-20261121: V1 sudah disubmit 2026-11-22 01:05 UTC (skor 982.336, rank #493/11.805); antrean berisi V2 mulai 2026-11-22 06:49 UTC.",
+   "pesan": "UTC news-image-20261121: V1 sudah disubmit 2026-11-22 01:05 UTC (skor 982.336, rank #493/11.805); antrean berisi V2 mulai 2026-11-22 06:49 UTC.",
    "waktu_utc": "2026-11-22T04:02:00Z"
+  },
+  {
+   "pesan": "UTC BUILDER csv-reader-speed-01-run-20261121: V1 selesai — gate-local 6/6, solve() 5,72× baseline (median 126,8 ms vs 725,2 ms), 8.622 perbandingan diferensial 0 selisih; repo lokal 13.569 byte.",
+   "waktu_utc": "2026-11-22T04:26:00Z"
+  },
+  {
+   "pesan": "UTC CROSSCHECK csv-reader-speed-01-run-20261121: GO — verifikasi sendiri: grade-local 6/6, 7.362 perbandingan 0 selisih, solve() ~4,6× baseline, gerbang mekanis lulus.",
+   "waktu_utc": "2026-11-22T04:34:00Z"
+  },
+  {
+   "pesan": "UTC MINTA APPROVAL csv-reader-speed-01-run-20261121: V1 siap, vonis GO; SUBMIT_MODE manual — menunggu approval Keva untuk submit (repo masih lokal, belum GitHub).",
+   "waktu_utc": "2026-11-22T04:34:00Z"
   }
  ],
  "versi_kontrak": 1
