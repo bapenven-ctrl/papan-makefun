@@ -16,7 +16,7 @@
       "hadiah_didapat": null,
       "jadwal_mulai_utc": null,
       "judul": null,
-      "kelonggaran_menit": 148,
+      "kelonggaran_menit": 94,
       "langkah_berikutnya": null,
       "langkah_terakhir_selesai": "BUILDER berhenti 06:00 UTC — kanal tidak tersedia; SKIP final Keva",
       "menunggu_apa": null,
@@ -57,7 +57,7 @@
       "hadiah_didapat": null,
       "jadwal_mulai_utc": null,
       "judul": "Faster csv-reader",
-      "kelonggaran_menit": 520,
+      "kelonggaran_menit": 466,
       "langkah_berikutnya": "SUBMIT (setelah konfirmasi kata-kata biasa Keva)",
       "langkah_terakhir_selesai": "HASIL DEV V2 TERBACA 14:15 UTC: rank #742/9.643, CPU 1.110.000 µs, lolos 6/6, stage scored; BUILDER V3 selesai 15:08 UTC (solve.js 30.726 byte, grade-local 6/6, diferensial 5.854 0 selisih, CPU 467-512 ms vs V2 548-572 ms); CROSSCHECK V3 FIX_FIRST putaran 0 (15:28 UTC, B1/B2 kritis: scan indexOf('\",\"') cacat); IMPROVE putaran 1 selesai 15:37 UTC (scan dihapus, widthEnd offset eksak, solve.js 31.438 byte, 11.914 perbandingan 0 selisih, bench -15,2% vs V2); CROSSCHECK V3 putaran 1 GO 15:45 UTC (B1/B2/B3 tertutup, 6.074 perbandingan 0 selisih, grade-local 6/6, V3 465,9 ms vs V2 569,5 ms -18,2%); SUBMIT V3 TERTUNDA 15:48 UTC - execution-risk check (clone segar OK HEAD e89944c; tidak ada salin/commit/push/submit)",
       "menunggu_apa": "Konfirmasi Keva dalam kata-kata biasa bahwa ia memahami pemrosesan konten repo/kit pada salin/commit/push/check/submit V3 bisa menjalankan kode dan tetap memerintahkan lanjut",
@@ -96,7 +96,7 @@
       "hadiah_didapat": null,
       "jadwal_mulai_utc": null,
       "judul": "Sokoban Solver",
-      "kelonggaran_menit": 538,
+      "kelonggaran_menit": 484,
       "langkah_berikutnya": null,
       "langkah_terakhir_selesai": "BUILDER V2 selesai 13:24 UTC (size_bytes 15.385 vs V1 34.074, skor 1.000.000 practice + 30 level segar); CROSSCHECK V2 GO 13:50 UTC (B1 tertutup - replikasi grade-local 1.000.000 passed=1, checker 5/5 tepat P*); SUBMIT V2 TERTUNDA 13:53 UTC dan DIBLOKIR LAGI 14:03 UTC - execution-risk check; KONFIRMASI KATA-KATA BIASA Keva 14:11 UTC (\"Lanjut - saya paham risikonya, submit Sokoban V2\"); inbox diproses 15:54 UTC; V2 DISUBMIT 16:06 UTC (submission 01a20402-0c8e-7148-b0f8-cd5378ef3f8b, commit 00f4318, stage checked, semua check server lulus)",
       "menunggu_apa": null,
@@ -138,7 +138,7 @@
       "hadiah_didapat": null,
       "jadwal_mulai_utc": null,
       "judul": null,
-      "kelonggaran_menit": 928,
+      "kelonggaran_menit": 874,
       "langkah_berikutnya": null,
       "langkah_terakhir_selesai": "Pekerja 06:05 UTC: tidak dibangun — butuh akun X publik + keputusan Garap/Skip Keva",
       "menunggu_apa": "Keputusan Garap/Skip Keva; bila Garap, akun X publik yang siap dipakai posting",
@@ -177,7 +177,7 @@
       "hadiah_didapat": null,
       "jadwal_mulai_utc": "2026-11-24 03:00",
       "judul": "Mara Voss: The Solmar Job",
-      "kelonggaran_menit": 2188,
+      "kelonggaran_menit": 2134,
       "langkah_berikutnya": "BUILDER (V2, jadwal mulai 2026-11-24 03:00 UTC)",
       "langkah_terakhir_selesai": "V1 DISUBMIT 11:16 UTC (submission 01a202f8-5bc3-736b-82aa-4b7497f5a87c, commit 6e3c977, stage checked)",
       "menunggu_apa": null,
@@ -218,7 +218,7 @@
       "hadiah_didapat": null,
       "jadwal_mulai_utc": "2026-11-24 05:00",
       "judul": null,
-      "kelonggaran_menit": 2188,
+      "kelonggaran_menit": 2134,
       "langkah_berikutnya": null,
       "langkah_terakhir_selesai": "golf12 entry live (sistem lama, repo HEAD e740c25); sesi 6 Tahap B GATE NO-GO 2026-11-21 (kandidat D1+NMP-ketat 200 game 48,5% = -10 Elo, gate >=+50 Elo tidak terpenuhi); kandidat tersimpan tiny-chess-sesi6/tahapb/cand_final.py, TIDAK di-pack/submit",
       "menunggu_apa": "Keputusan Keva: submit D1-saja (filter legalitas saja) vs biarkan golf12 tetap live",
@@ -257,7 +257,7 @@
       "hadiah_didapat": null,
       "jadwal_mulai_utc": "2026-11-23 14:00",
       "judul": null,
-      "kelonggaran_menit": 2458,
+      "kelonggaran_menit": 2404,
       "langkah_berikutnya": "BUILDER",
       "langkah_terakhir_selesai": null,
       "menunggu_apa": null,
@@ -298,7 +298,7 @@
       "hadiah_didapat": null,
       "jadwal_mulai_utc": "2026-11-23 07:00",
       "judul": null,
-      "kelonggaran_menit": 2668,
+      "kelonggaran_menit": 2614,
       "langkah_berikutnya": "BUILDER",
       "langkah_terakhir_selesai": null,
       "menunggu_apa": null,
@@ -337,7 +337,7 @@
       "hadiah_didapat": null,
       "jadwal_mulai_utc": "2026-11-23 16:00",
       "judul": null,
-      "kelonggaran_menit": 2848,
+      "kelonggaran_menit": 2794,
       "langkah_berikutnya": "BUILDER",
       "langkah_terakhir_selesai": null,
       "menunggu_apa": null,
@@ -365,7 +365,7 @@
     {
       "blocker": [],
       "buka_utc": "2026-11-14 10:00",
-      "catatan": "SUBMIT V1 sedang berjalan sejak 16:13 UTC (kunci dipegang jalan pekerja). Perintah Keva sudah diterima; tidak ada tindakan baru yang perlu Keva lakukan. Kuota bounty ini 0/5 hari ini, 0/10 total.",
+      "catatan": "V1 DISUBMIT 16:27 UTC (submission 01a20415-f1e1-7122-822e-299b0e9e4545, commit 303f2d8, stage checked; check 26 pass, 3 skip, 0 fail; dev grading berjalan). V1 kini entri final (Force_Last). Kuota bounty ini day left 4/5, entries_made 4; claim code AF-39NGK-WZ4QZ-KBD5X-HQMJV.",
       "duel_a": {
         "n": 0,
         "putusan": null,
@@ -376,7 +376,7 @@
       "hadiah_didapat": null,
       "jadwal_mulai_utc": null,
       "judul": "The Unlaunched List",
-      "kelonggaran_menit": 30808,
+      "kelonggaran_menit": 30754,
       "langkah_berikutnya": null,
       "langkah_terakhir_selesai": "BUILDER + CROSSCHECK GO putaran 2 (09:54 UTC); SUBMIT TERTUNDA 10:15 UTC - execution-risk check; PERSETUJUAN Keva 14:34 UTC (\"lanjut\" + \"Token radar masuk ke antrian\"); inbox diproses 15:54 UTC; V1 DISUBMIT 16:27 UTC (submission 01a20415-f1e1-7122-822e-299b0e9e4545, commit 303f2d8, stage checked; check 26 pass, 3 skip, 0 fail; dev grading berjalan)",
       "menunggu_apa": null,
@@ -415,7 +415,7 @@
       "hadiah_didapat": null,
       "jadwal_mulai_utc": null,
       "judul": null,
-      "kelonggaran_menit": -1233,
+      "kelonggaran_menit": -1287,
       "langkah_berikutnya": null,
       "langkah_terakhir_selesai": "DILEWATI",
       "menunggu_apa": null,
@@ -456,7 +456,7 @@
       "hadiah_didapat": null,
       "jadwal_mulai_utc": null,
       "judul": null,
-      "kelonggaran_menit": -513,
+      "kelonggaran_menit": -567,
       "langkah_berikutnya": null,
       "langkah_terakhir_selesai": "DILEWATI (penemuan 14:11 UTC)",
       "menunggu_apa": null,
@@ -484,7 +484,7 @@
     {
       "blocker": [],
       "buka_utc": "2026-11-22 16:00",
-      "catatan": "Ronde blind 18:00 UTC kemungkinan terlewat; MULAI TERAKHIR 18:30 UTC (58 mnt lagi); repo GitHub baru sudah dibuat, masih kosong; kuota 0/20 hari ini, 0/40 total.",
+      "catatan": "Ronde blind 18:00 UTC sudah lewat (kemungkinan terlewat); MULAI TERAKHIR 18:30 UTC (4 mnt lagi); repo GitHub baru sudah dibuat, masih kosong; kuota 0/20 hari ini, 0/40 total.",
       "duel_a": {
         "n": 0,
         "putusan": null,
@@ -495,13 +495,13 @@
       "hadiah_didapat": null,
       "jadwal_mulai_utc": null,
       "judul": null,
-      "kelonggaran_menit": 58,
+      "kelonggaran_menit": 4,
       "langkah_berikutnya": "SUBMIT (setelah konfirmasi kata-kata biasa Keva)",
       "langkah_terakhir_selesai": "BUILDER V1 selesai 17:20 UTC (main.py Python stdlib, teks 225 karakter/227 byte, gerbang lulus: 2 run sha256 identik); CROSSCHECK V1 GO 17:24 UTC (diukur ulang independen, tanpa blocker); SUBMIT V1 TERTUNDA 17:30 UTC - execution-risk check sistem saat memproses repo (git add diblokir; repo GitHub baru sudah dibuat, masih kosong; tidak ada commit/push/check/submit, tidak ada submission)",
       "menunggu_apa": "Konfirmasi Keva dalam kata-kata biasa bahwa ia memahami pemrosesan konten repo/kit pada salin/commit/push/check/submit V1 bisa menjalankan kode dan tetap memerintahkan lanjut",
       "menunggu_sejak_utc": "2026-11-22 17:30",
       "mulai_dikerjakan_utc": "2026-11-22 17:06",
-      "mulai_terakhir_utc": null,
+      "mulai_terakhir_utc": "2026-11-22 18:30",
       "peringkat": null,
       "prioritas": false,
       "putaran": 0,
@@ -523,7 +523,7 @@
     {
       "blocker": [],
       "buka_utc": "2026-11-22 17:09",
-      "catatan": "Jadwal mulai dihitung penemuan setelah terbuka. Butuh akun X publik.",
+      "catatan": "Didaftarkan penemuan 17:58 UTC (BELUM DIBUKA -> MENUNGGU). Butuh akun X publik - pekerja akan minta approval (CORE 4, seperti gta6-meme-x-01). Bisa digarap cron mulai Selasa 24 Nov 00:09 WIB.",
       "duel_a": {
         "n": 0,
         "putusan": null,
@@ -532,22 +532,22 @@
       "file_inbox": null,
       "hadiah": "$20",
       "hadiah_didapat": null,
-      "jadwal_mulai_utc": null,
+      "jadwal_mulai_utc": "2026-11-23 17:09",
       "judul": null,
-      "kelonggaran_menit": null,
-      "langkah_berikutnya": null,
+      "kelonggaran_menit": 2503,
+      "langkah_berikutnya": "BUILDER",
       "langkah_terakhir_selesai": null,
       "menunggu_apa": null,
       "menunggu_sejak_utc": null,
       "mulai_dikerjakan_utc": null,
-      "mulai_terakhir_utc": null,
+      "mulai_terakhir_utc": "2026-11-24 12:09",
       "peringkat": null,
       "prioritas": false,
       "putaran": null,
       "selesai_dikerjakan_utc": null,
       "skor": null,
       "slug": "post-x-the-agent-builds-a-game-from-20261122-1709",
-      "status": "BELUM DIBUKA",
+      "status": "MENUNGGU",
       "submit_status": null,
       "submit_utc": null,
       "tautan": "https://make.fun/bounty/post-x-the-agent-builds-a-game-from-20261122-1709",
@@ -556,13 +556,13 @@
       "tipe_baru": false,
       "total_peserta": null,
       "type_card": "promo-klip-koin.txt",
-      "versi": null,
+      "versi": 1,
       "vonis_crosscheck": null
     },
     {
       "blocker": [],
       "buka_utc": "2026-11-22 18:26",
-      "catatan": "Jadwal mulai dihitung penemuan setelah terbuka. Jendela 12 jam; MULAI TERAKHIR hanya ~3 jam setelah buka — rawan pola best-heist.",
+      "catatan": "Buka 18:26 UTC - baru saja buka saat laporan ini ditulis; penemuan berikutnya mendaftarkannya. Jendela 12 jam; MULAI TERAKHIR hanya ~3 jam setelah buka - rawan pola best-heist.",
       "duel_a": {
         "n": 0,
         "putusan": null,
@@ -794,53 +794,53 @@
       "vonis_crosscheck": null
     }
   ],
-  "dibuat_pada_utc": "2026-11-22 17:32",
+  "dibuat_pada_utc": "2026-11-22 18:26",
   "kunci": {
-    "langkah_terakhir": "KOSONG - pekerja 17:06-17:32 UTC selesai (make-the-ai-judge-feel-held V1: BUILDER selesai, CROSSCHECK GO, SUBMIT TERTUNDA execution-risk); kunci dikosongkan 17:32 UTC",
+    "langkah_terakhir": "KOSONG - pekerja 18:26 UTC: kunci kosong, inbox kosong, tidak ada kandidat MENUNGGU yang jadwal mulainya sudah lewat; kunci dikosongkan kembali di akhir jalan ini",
     "sejak_utc": null,
     "slug": null,
     "terpakai": false
   },
   "peristiwa_terakhir": [
     {
-      "pesan": "Pekerja 16:56 UTC: kunci diambil (kosong), inbox kosong, TIDAK ADA kandidat MENUNGGU yang jadwal mulainya sudah lewat — gta6-01 V2 2026-11-24 03:00 UTC, hidden-spec-cli-01 2026-11-23 14:00 UTC, bring-the-humans-03 2026-11-23 07:00 UTC, tiny-stack-vm-01 2026-11-23 16:00 UTC. Tidak ada tugas diambil; antrean.md tidak berubah; status.md diperbarui (16:56 UTC). Kandidat paling awal: bring-the-humans-03, bisa digarap cron mulai Senin 23 Nov 14:00 WIB. make-the-ai-judge-feel-held-20261122-1600 sudah buka 56 menit (16:00 UTC) tapi masih BELUM DIBUKA di antrean — menunggu penemuan mendaftarkannya. Kunci dikosongkan.",
-      "waktu_utc": "2026-11-22 16:57"
+      "pesan": "Pekerja 18:01 UTC: kunci diambil (kosong), inbox kosong, TIDAK ADA kandidat MENUNGGU yang jadwal mulainya sudah lewat — gta6-01 V2 2026-11-24 03:00 UTC, hidden-spec-cli-01 2026-11-23 14:00 UTC, bring-the-humans-03 2026-11-23 07:00 UTC, tiny-stack-vm-01 2026-11-23 16:00 UTC. Tidak ada tugas diambil; antrean.md tidak berubah; status.md diperbarui (18:01 UTC). Kandidat paling awal: bring-the-humans-03, bisa digarap cron mulai Senin 23 Nov 14:00 WIB. make-the-ai-judge-feel-held-20261122-1600 MINTA APPROVAL (MULAI TERAKHIR 18:30 UTC, ~29 mnt lagi) — menunggu konfirmasi kata-kata biasa Keva; bila tidak datang sebelum itu, V1 hangus; ronde blind 18:00 UTC sudah lewat (kemungkinan terlewat). best-card-game-20261122-1826 buka 18:26 UTC (25 mnt lagi) — penemuan berikutnya yang mendaftarkannya. Kunci dikosongkan.",
+      "waktu_utc": "2026-11-22 18:01"
     },
     {
-      "pesan": "Pekerja 17:01 UTC: kunci diambil (kosong), inbox kosong, TIDAK ADA kandidat MENUNGGU yang jadwal mulainya sudah lewat — gta6-01 V2 2026-11-24 03:00 UTC, hidden-spec-cli-01 2026-11-23 14:00 UTC, bring-the-humans-03 2026-11-23 07:00 UTC, tiny-stack-vm-01 2026-11-23 16:00 UTC. Tidak ada tugas diambil; antrean.md tidak berubah; status.md diperbarui (17:01 UTC). Kandidat paling awal: bring-the-humans-03, bisa digarap cron mulai Senin 23 Nov 14:00 WIB. make-the-ai-judge-feel-held-20261122-1600 sudah buka 61 menit (16:00 UTC) tapi masih BELUM DIBUKA di antrean — menunggu penemuan mendaftarkannya; tutup 20:00 UTC (sisa ~3 jam). post-x-the-agent-builds-a-game-from-20261122-1709 buka 17:09 UTC (8 menit lagi). Kunci dikosongkan.",
-      "waktu_utc": "2026-11-22 17:01"
+      "pesan": "PENEMUAN: daftar make.fun dibaca (https://make.fun/, 17:58 UTC): 15 live + 8 upcoming + 1 judging. Antrean v12: 20 bounty (MENUNGGU 5, MINTA APPROVAL 4, MATI 1, SELESAI 4, BELUM DIBUKA 6). Kunci kosong saat jalan — penemuan berjalan penuh.",
+      "waktu_utc": "2026-11-22 17:58"
     },
     {
-      "pesan": "PENEMUAN: daftar make.fun dibaca (https://make.fun/, 16:58 UTC): 14 live + 9 upcoming + 1 judging. Antrean v12: 20 bounty (MENUNGGU 5, MINTA APPROVAL 3, MATI 1, SELESAI 4, BELUM DIBUKA 7). Kunci kosong saat jalan — penemuan berjalan penuh.",
-      "waktu_utc": "2026-11-22 17:05"
-    },
-    {
-      "pesan": "PENEMUAN make-the-ai-judge-feel-held-20261122-1600: BELUM DIBUKA → MENUNGGU + BUILDER. $50, teks-program-penghasil-teks.txt (program menulis teks 1–280 karakter ke /output/entry.txt, juri AI dua-dua; kuota 20/hari, 40 total; MODE UNGGAH — koreksi catatan antrean lama yang menulis MODE REKAM); B 2026-11-22 16:00 UTC, C 20:00 UTC (jendela 4 jam); V1 mulai segera; V2 praktis tidak ada; cadangan 30 mnt; jam minimum 1 jam (rentang kartu 1–2 jam); MULAI TERAKHIR 2026-11-22 18:30 UTC; kelonggaran 1 jam 25 mnt. Router di make-the-ai-judge-feel-held-20261122-1600/router.md (DEADLINE/PERINGATAN diperbarui — kini sudah buka).",
-      "waktu_utc": "2026-11-22 17:05"
-    },
-    {
-      "pesan": "PENEMUAN: the-passport-page-of-a-countr-2-20261122-1501 ($20) muncul dan tutup di antara jalan penemuan (buka 15:01 UTC, tutup 16:01 UTC, jendela 1 jam) tanpa pernah didaftarkan — tidak ada entrant, tidak ada hadiah dibayar. Tipe design-image-program (program menulis satu gambar passport, juri AI) = wilayah ATM; plus biaya masuk $1 — tidak didaftarkan ke antrean v12.",
-      "waktu_utc": "2026-11-22 17:05"
+      "pesan": "PENEMUAN post-x-the-agent-builds-a-game-from-20261122-1709: BELUM DIBUKA → MENUNGGU + BUILDER. $20, promo-klip-koin.txt (video di X dari akun publik + repo GitHub main.ts/POST.json + transkrip sesi; skor = views + 10×(likes, repost, quote, reply), 10 teratas berbagi $20; video wajib diakhiri end card referral make.fun); B 2026-11-22 17:09 UTC, C 2026-11-24 17:09 UTC (48 jam); V1 mulai 2026-11-23 17:09 UTC (titik tengah); V2 seperempat sisa jendela setelah V1 disubmit; cadangan 60 mnt; jam minimum 4 jam; MULAI TERAKHIR 2026-11-24 12:09 UTC; kelonggaran 1 hari 18 jam 11 mnt. Router di post-x-the-agent-builds-a-game-from-20261122-1709/router.md (DEADLINE/PERINGATAN diperbarui — kini sudah buka). Butuh akun X publik — pekerja akan minta approval (CORE 4, seperti gta6-meme-x-01).",
+      "waktu_utc": "2026-11-22 17:58"
     },
     {
       "pesan": "PENEMUAN: tidak ada bounty live baru lain di luar antrean; 2 bounty desain TIDAK didaftarkan ke antrean v12 (wilayah ATM, TIPE_JEDA config): news-image-20261123 (design-gambar-news-image, $100, buka 2026-11-23 00:00 UTC, tutup 2026-11-25 00:00 UTC) dan the-picture-that-tastes-of-one-20261122-2047 (design-image-program, $20, buka 20:47 UTC, tutup 21:47 UTC, jendela 1 jam) — penemuan ATM yang menanganinya. \"Forecast how many GTA VI players earn each trophy in week one\" ($250) masih fase Judging — bukan bounty baru, tidak didaftarkan.",
-      "waktu_utc": "2026-11-22 17:05"
+      "waktu_utc": "2026-11-22 17:58"
     },
     {
-      "pesan": "Pekerja: BUILDER make-the-ai-judge-feel-held-20261122-1600 V1 SELESAI — main.py Python stdlib, teks 225 karakter/227 byte ke /output/entry.txt, gerbang lulus (2 run sha256 identik 3b0a9f6f…, runtime 0,026 dtk, tanpa jaringan); kandidat-V1.md + result.md ditulis; repo GitHub belum dibuat.",
-      "waktu_utc": "2026-11-22 17:20"
+      "pesan": "CATATAN: jalan pekerja 18:01 UTC sempat menimpa status.md dengan snapshot antrean sebelum pembaruan penemuan ini (post-x masih BELUM DIBUKA, hitungan lama) — antrean.md/peristiwa.md tidak tersentuh. status.md dikoreksi ke keadaan antrean.md 17:58 UTC (post-x MENUNGGU, MENUNGGU 5, BELUM DIBUKA 6).",
+      "waktu_utc": "2026-11-22 18:02"
     },
     {
-      "pesan": "Pekerja: CROSSCHECK make-the-ai-judge-feel-held-20261122-1600 V1 GO — diukur ulang independen (determinisme, panjang, tanpa jaringan, kontrak cocok verbatim RULES.txt), tanpa blocker; risiko sisa K1 belum teruji vs anchor (Data Unavailable).",
-      "waktu_utc": "2026-11-22 17:24"
+      "pesan": "Pekerja 18:06 UTC: kunci diambil (kosong), inbox kosong, TIDAK ADA kandidat MENUNGGU yang jadwal mulainya sudah lewat — gta6-01 V2 2026-11-24 03:00 UTC, hidden-spec-cli-01 2026-11-23 14:00 UTC, bring-the-humans-03 2026-11-23 07:00 UTC, tiny-stack-vm-01 2026-11-23 16:00 UTC, post-x-the-agent-builds-a-game-from-20261122-1709 2026-11-23 17:09 UTC. Tidak ada tugas diambil; antrean.md tidak berubah; status.md diperbarui (18:06 UTC). Kandidat paling awal: bring-the-humans-03, bisa digarap cron mulai Senin 23 Nov 14:00 WIB. make-the-ai-judge-feel-held-20261122-1600 MINTA APPROVAL (MULAI TERAKHIR 18:30 UTC, 24 mnt lagi) — menunggu konfirmasi kata-kata biasa Keva; bila tidak datang sebelum itu, V1 hangus; ronde blind 18:00 UTC sudah lewat (kemungkinan terlewat). best-card-game-20261122-1826 buka 18:26 UTC (20 mnt lagi) — penemuan berikutnya yang mendaftarkannya. Kunci dikosongkan.",
+      "waktu_utc": "2026-11-22 18:06"
     },
     {
-      "pesan": "Pekerja: SUBMIT make-the-ai-judge-feel-held-20261122-1600 V1 TERTUNDA — execution-risk check sistem saat memproses repo (git add diblokir, call_01a2044debc875e08b8d85b017f84013); repo GitHub baru sudah dibuat (https://github.com/bapenven-ctrl/make-the-ai-judge-feel-held-20261122-1600, masih kosong); TIDAK ADA commit/push/check/submit, TIDAK ADA submission; status Belum Terkonfirmasi; bounty → MINTA APPROVAL, menunggu konfirmasi kata-kata biasa Keva (file inbox setuju-make-the-ai-judge-feel-held-20261122-1600-v1.txt); ronde blind 18:00 UTC kemungkinan terlewat; sisa sampai MULAI TERAKHIR 18:30 UTC ~58 mnt.",
-      "waktu_utc": "2026-11-22 17:30"
+      "pesan": "Pekerja 18:11 UTC: kunci diambil (kosong), inbox kosong, TIDAK ADA kandidat MENUNGGU yang jadwal mulainya sudah lewat — gta6-01 V2 2026-11-24 03:00 UTC, hidden-spec-cli-01 2026-11-23 14:00 UTC, bring-the-humans-03 2026-11-23 07:00 UTC, tiny-stack-vm-01 2026-11-23 16:00 UTC, post-x-the-agent-builds-a-game-from-20261122-1709 2026-11-23 17:09 UTC. Tidak ada tugas diambil; antrean.md tidak berubah; status.md diperbarui (18:11 UTC). Kandidat paling awal: bring-the-humans-03, bisa digarap cron mulai Senin 23 Nov 14:00 WIB. make-the-ai-judge-feel-held-20261122-1600 MINTA APPROVAL (MULAI TERAKHIR 18:30 UTC, 19 mnt lagi) — menunggu konfirmasi kata-kata biasa Keva; bila tidak datang sebelum itu, V1 hangus; ronde blind 18:00 UTC sudah lewat (kemungkinan terlewat). best-card-game-20261122-1826 buka 18:26 UTC (15 mnt lagi) — penemuan berikutnya yang mendaftarkannya. Kunci dikosongkan.",
+      "waktu_utc": "2026-11-22 18:11"
     },
     {
-      "pesan": "Pekerja 17:31 UTC: kunci diambil (kosong), inbox kosong, TIDAK ADA kandidat MENUNGGU yang jadwal mulainya sudah lewat — gta6-01 V2 2026-11-24 03:00 UTC, hidden-spec-cli-01 2026-11-23 14:00 UTC, bring-the-humans-03 2026-11-23 07:00 UTC, tiny-stack-vm-01 2026-11-23 16:00 UTC. Tidak ada tugas diambil; antrean.md tidak berubah; status.md diperbarui (17:31 UTC). Kandidat paling awal: bring-the-humans-03, bisa digarap cron mulai Senin 23 Nov 14:00 WIB. make-the-ai-judge-feel-held-20261122-1600 MINTA APPROVAL (MULAI TERAKHIR 18:30 UTC, ~59 mnt lagi) — menunggu konfirmasi kata-kata biasa Keva; bila tidak datang sebelum itu, V1 hangus. best-card-game-20261122-1826 buka 18:26 UTC (55 mnt lagi) — penemuan berikutnya yang mendaftarkannya. Kunci dikosongkan.",
-      "waktu_utc": "2026-11-22 17:31"
+      "pesan": "Pekerja 18:16 UTC: kunci diambil (kosong), inbox kosong, TIDAK ADA kandidat MENUNGGU yang jadwal mulainya sudah lewat — gta6-01 V2 2026-11-24 03:00 UTC, hidden-spec-cli-01 2026-11-23 14:00 UTC, bring-the-humans-03 2026-11-23 07:00 UTC, tiny-stack-vm-01 2026-11-23 16:00 UTC, post-x-the-agent-builds-a-game-from-20261122-1709 2026-11-23 17:09 UTC. Tidak ada tugas diambil; antrean.md tidak berubah; status.md diperbarui (18:16 UTC). Kandidat paling awal: bring-the-humans-03, bisa digarap cron mulai Senin 23 Nov 14:00 WIB. make-the-ai-judge-feel-held-20261122-1600 MINTA APPROVAL (MULAI TERAKHIR 18:30 UTC, 14 mnt lagi) — menunggu konfirmasi kata-kata biasa Keva; bila tidak datang sebelum itu, V1 hangus; ronde blind 18:00 UTC sudah lewat (kemungkinan terlewat). best-card-game-20261122-1826 buka 18:26 UTC (10 mnt lagi) — penemuan berikutnya yang mendaftarkannya. Kunci dikosongkan.",
+      "waktu_utc": "2026-11-22 18:16"
+    },
+    {
+      "pesan": "Pekerja 18:21 UTC: kunci diambil (kosong), inbox kosong, TIDAK ADA kandidat MENUNGGU yang jadwal mulainya sudah lewat — gta6-01 V2 2026-11-24 03:00 UTC, hidden-spec-cli-01 2026-11-23 14:00 UTC, bring-the-humans-03 2026-11-23 07:00 UTC, tiny-stack-vm-01 2026-11-23 16:00 UTC, post-x-the-agent-builds-a-game-from-20261122-1709 2026-11-23 17:09 UTC. Tidak ada tugas diambil; antrean.md tidak berubah; status.md diperbarui (18:21 UTC). Kandidat paling awal: bring-the-humans-03, bisa digarap cron mulai Senin 23 Nov 14:00 WIB. make-the-ai-judge-feel-held-20261122-1600 MINTA APPROVAL (MULAI TERAKHIR 18:30 UTC, 9 mnt lagi) — menunggu konfirmasi kata-kata biasa Keva; bila tidak datang sebelum itu, V1 hangus; ronde blind 18:00 UTC sudah lewat (kemungkinan terlewat). best-card-game-20261122-1826 buka 18:26 UTC (5 mnt lagi) — penemuan berikutnya yang mendaftarkannya. Kunci dikosongkan.",
+      "waktu_utc": "2026-11-22 18:21"
+    },
+    {
+      "pesan": "Pekerja 18:26 UTC: kunci diambil (kosong), inbox kosong, TIDAK ADA kandidat MENUNGGU yang jadwal mulainya sudah lewat — gta6-01 V2 2026-11-24 03:00 UTC, hidden-spec-cli-01 2026-11-23 14:00 UTC, bring-the-humans-03 2026-11-23 07:00 UTC, tiny-stack-vm-01 2026-11-23 16:00 UTC, post-x-the-agent-builds-a-game-from-20261122-1709 2026-11-23 17:09 UTC. Tidak ada tugas diambil; antrean.md tidak berubah; status.md diperbarui (18:26 UTC). Kandidat paling awal: bring-the-humans-03, bisa digarap cron mulai Senin 23 Nov 14:00 WIB. make-the-ai-judge-feel-held-20261122-1600 MINTA APPROVAL (MULAI TERAKHIR 18:30 UTC, 4 mnt lagi) — menunggu konfirmasi kata-kata biasa Keva; bila tidak datang sebelum itu, V1 hangus; ronde blind 18:00 UTC sudah lewat (kemungkinan terlewat). best-card-game-20261122-1826 baru terbuka 18:26 UTC — penemuan berikutnya yang mendaftarkannya. Kunci dikosongkan.",
+      "waktu_utc": "2026-11-22 18:26"
     }
   ],
   "versi_kontrak": 1
