@@ -1,11 +1,9 @@
 {
  "bounty": [
   {
-   "blocker": [
-    "kit lokal level 35 vs situs level 36 — unduh ulang sebelum submit (KIT_REFRESH auto, izin tetap Keva)"
-   ],
+   "blocker": [],
    "buka_utc": "2026-11-21T03:00:00Z",
-   "catatan": "pack v12. V1 siap: skor practice 1.000.000 (5/5 tepat P*), baseline 200.000, run 0,37 dtk, repo 33.636 byte. Repo GitHub sudah dibuat + init anchor cfd641b (round 34174248); file entry BELUM disalin/commit/push.",
+   "catatan": "pack v12. V1 DISUBMIT 06:37 UTC (stage scored, semua check lulus); skor practice 1.000.000 (5/5 tepat P*), baseline 200.000, run 0,37 dtk, repo 33.636 byte. Kit level 36 diunduh ulang (32/32 sha256 cocok), grade-local ulang 1.000.000. Hasil dev (skor/rank) belum terbaca; hasil resmi setelah entry tutup 2026-11-23 03:00 UTC.",
    "duel_a": {
     "n": 0,
     "putusan": null,
@@ -16,22 +14,22 @@
    "hadiah_didapat": null,
    "jadwal_mulai_utc": "2026-11-22T03:00:00Z",
    "judul": "Build the best Sokoban solver, 21 November 2026",
-   "kelonggaran_menit": 598,
-   "langkah_berikutnya": "SUBMIT (unduh ulang kit level 36 dulu)",
-   "langkah_terakhir_selesai": "BUILDER + CROSSCHECK GO putaran 2 (05:39 UTC); SUBMIT tertunda 05:43 UTC; DISETUJUI Keva 06:27 UTC",
+   "kelonggaran_menit": 1143,
+   "langkah_berikutnya": "BUILDER (V2)",
+   "langkah_terakhir_selesai": "BUILDER + CROSSCHECK GO putaran 2 (05:39 UTC); V1 DISUBMIT 06:37 UTC (submission 01a201f9-6219-7495-bf3f-8d51bf9bab6b, commit 0567966, stage scored)",
    "menunggu_apa": null,
    "menunggu_sejak_utc": null,
    "mulai_dikerjakan_utc": "2026-11-22T04:34:00Z",
-   "mulai_terakhir_utc": "2026-11-22T16:30:00Z",
+   "mulai_terakhir_utc": "2026-11-23T02:30:00Z",
    "peringkat": null,
-   "prioritas": true,
+   "prioritas": false,
    "putaran": 2,
    "selesai_dikerjakan_utc": null,
    "skor": null,
    "slug": "sokoban-solver-01-run-20261121",
    "status": "MENUNGGU",
-   "submit_status": "belum disubmit — disetujui Keva 06:27 UTC; SUBMIT jalan pekerja berikutnya (unduh ulang kit level 36 dulu)",
-   "submit_utc": null,
+   "submit_status": "V1 disubmit, stage scored; V2 belum dikerjakan",
+   "submit_utc": "2026-11-22T06:37:00Z",
    "tautan": "https://make.fun/bounty/sokoban-solver-01-run-20261121",
    "tempat_dibayar": null,
    "tenggat_utc": "2026-11-23T03:00:00Z",
@@ -55,7 +53,7 @@
    "hadiah_didapat": null,
    "jadwal_mulai_utc": "2026-11-21T13:00:00Z",
    "judul": null,
-   "kelonggaran_menit": 808,
+   "kelonggaran_menit": 753,
    "langkah_berikutnya": "-",
    "langkah_terakhir_selesai": "BUILDER berhenti 06:00 UTC — kanal tidak tersedia; SKIP final Keva",
    "menunggu_apa": null,
@@ -94,7 +92,7 @@
    "hadiah_didapat": null,
    "jadwal_mulai_utc": "2026-11-22T06:49:00Z",
    "judul": null,
-   "kelonggaran_menit": 868,
+   "kelonggaran_menit": 813,
    "langkah_berikutnya": "BUILDER",
    "langkah_terakhir_selesai": "V1 disubmit",
    "menunggu_apa": null,
@@ -122,7 +120,7 @@
   {
    "blocker": [],
    "buka_utc": "2026-11-21T02:42:00Z",
-   "catatan": "pack v12. V1: gate-local 6/6, solve() 5,72x baseline, 8.622 perbandingan diferensial 0 selisih. Percobaan submit pertama ditolak 422 repo_readme, diperbaiki lalu lolos. Skor/rank dev BELUM ada (status 05:52 UTC: outcome not decided yet).",
+   "catatan": "pack v12 (V2 sedang dikerjakan; V1 mulai 04:05 UTC). V1: gate-local 6/6, solve() 5,72x baseline, 8.622 perbandingan diferensial 0 selisih. Percobaan submit pertama ditolak 422 repo_readme, diperbaiki lalu lolos. Skor = CPU dev 1.470.000 µs (trimmed mean), lolos 6/6, tanpa efficiency reward; papan atas 0 µs.",
    "duel_a": {
     "n": 0,
     "putusan": null,
@@ -131,29 +129,29 @@
    "file_inbox": null,
    "hadiah": "$100",
    "hadiah_didapat": null,
-   "jadwal_mulai_utc": null,
+   "jadwal_mulai_utc": "2026-11-22T06:32:00Z",
    "judul": null,
-   "kelonggaran_menit": 1180,
-   "langkah_berikutnya": "BUILDER (V2, setelah hasil dev V1)",
-   "langkah_terakhir_selesai": "V1 disubmit 05:51 UTC (submission 01a201cf-4d58-7729-99fa-f130f7e67237, commit 73f593a)",
+   "kelonggaran_menit": 1125,
+   "langkah_berikutnya": "BUILDER (V2, sedang berjalan)",
+   "langkah_terakhir_selesai": "V1 disubmit 05:51 UTC (submission 01a201cf-4d58-7729-99fa-f130f7e67237, commit 73f593a); dev terbaca 06:32 UTC: rank #3759/8447, CPU 1.470.000 µs; BUILDER V2 berjalan sejak 06:41 UTC (V2c: practice 6/6, edge 282/282, fuzz 5000/5000; benchmark berjalan)",
    "menunggu_apa": null,
    "menunggu_sejak_utc": null,
-   "mulai_dikerjakan_utc": "2026-11-22T04:05:00Z",
+   "mulai_dikerjakan_utc": "2026-11-22T06:41:00Z",
    "mulai_terakhir_utc": "2026-11-23T02:12:00Z",
-   "peringkat": null,
+   "peringkat": 3759,
    "prioritas": false,
    "putaran": null,
    "selesai_dikerjakan_utc": null,
-   "skor": null,
+   "skor": 1470000,
    "slug": "csv-reader-speed-01-run-20261121",
-   "status": "MENUNGGU",
-   "submit_status": "V1 disubmit, stage checked, dev grading berjalan",
+   "status": "DIPROSES",
+   "submit_status": "V1 disubmit, stage scored; hasil dev terbaca 06:32 UTC: rank #3759/8447, CPU 1.470.000 µs; V2 BUILDER berjalan",
    "submit_utc": "2026-11-22T05:51:00Z",
    "tautan": null,
    "tempat_dibayar": null,
    "tenggat_utc": "2026-11-23T02:42:00Z",
    "tipe_baru": false,
-   "total_peserta": null,
+   "total_peserta": 8447,
    "type_card": "metrik-grader.txt",
    "versi": 2,
    "vonis_crosscheck": "GO"
@@ -172,7 +170,7 @@
    "hadiah_didapat": null,
    "jadwal_mulai_utc": "2026-11-21T14:00:00Z",
    "judul": null,
-   "kelonggaran_menit": 1588,
+   "kelonggaran_menit": 1533,
    "langkah_berikutnya": "-",
    "langkah_terakhir_selesai": "Pekerja 06:05 UTC: tidak dibangun — butuh akun X publik + keputusan Garap/Skip Keva",
    "menunggu_apa": "keputusan Garap/Skip Keva + akun X publik bila Garap",
@@ -211,7 +209,7 @@
    "hadiah_didapat": null,
    "jadwal_mulai_utc": "2026-11-23T00:00:00Z",
    "judul": null,
-   "kelonggaran_menit": 2308,
+   "kelonggaran_menit": 2253,
    "langkah_berikutnya": "BUILDER",
    "langkah_terakhir_selesai": "-",
    "menunggu_apa": null,
@@ -250,7 +248,7 @@
    "hadiah_didapat": null,
    "jadwal_mulai_utc": "2026-11-21T03:00:00Z",
    "judul": null,
-   "kelonggaran_menit": 2848,
+   "kelonggaran_menit": 2793,
    "langkah_berikutnya": "BUILDER",
    "langkah_terakhir_selesai": "-",
    "menunggu_apa": null,
@@ -289,7 +287,7 @@
    "hadiah_didapat": null,
    "jadwal_mulai_utc": "2026-11-11T05:00:00Z",
    "judul": null,
-   "kelonggaran_menit": 2848,
+   "kelonggaran_menit": 2793,
    "langkah_berikutnya": "BUILDER",
    "langkah_terakhir_selesai": "-",
    "menunggu_apa": null,
@@ -328,7 +326,7 @@
    "hadiah_didapat": null,
    "jadwal_mulai_utc": "2026-11-23T07:00:00Z",
    "judul": null,
-   "kelonggaran_menit": 3328,
+   "kelonggaran_menit": 3273,
    "langkah_berikutnya": "BUILDER",
    "langkah_terakhir_selesai": "-",
    "menunggu_apa": null,
@@ -367,7 +365,7 @@
    "hadiah_didapat": null,
    "jadwal_mulai_utc": "2026-11-23T16:00:00Z",
    "judul": null,
-   "kelonggaran_menit": 3508,
+   "kelonggaran_menit": 3453,
    "langkah_berikutnya": "BUILDER",
    "langkah_terakhir_selesai": "-",
    "menunggu_apa": null,
@@ -406,7 +404,7 @@
    "hadiah_didapat": null,
    "jadwal_mulai_utc": "2026-11-14T22:00:00Z",
    "judul": null,
-   "kelonggaran_menit": 31468,
+   "kelonggaran_menit": 31353,
    "langkah_berikutnya": "BUILDER",
    "langkah_terakhir_selesai": "-",
    "menunggu_apa": null,
@@ -445,7 +443,7 @@
    "hadiah_didapat": null,
    "jadwal_mulai_utc": null,
    "judul": null,
-   "kelonggaran_menit": -573,
+   "kelonggaran_menit": -628,
    "langkah_berikutnya": "-",
    "langkah_terakhir_selesai": "DILEWATI",
    "menunggu_apa": null,
@@ -510,26 +508,14 @@
    "vonis_crosscheck": null
   }
  ],
- "dibuat_pada_utc": "2026-11-22T06:31:22Z",
+ "dibuat_pada_utc": "2026-11-22T07:29:37Z",
  "kunci": {
-  "langkah_terakhir": null,
-  "sejak_utc": null,
-  "slug": null,
-  "terpakai": false
+  "langkah_terakhir": "BUILDER V2 — V2c byte transducer: practice 6/6, edge 282/282, fuzz 5000/5000; benchmark berjalan",
+  "sejak_utc": "2026-11-22T06:41:00Z",
+  "slug": "csv-reader-speed-01-run-20261121",
+  "terpakai": true
  },
  "peristiwa_terakhir": [
-  {
-   "pesan": "MINTA APPROVAL csv-reader-speed-01-run-20261121: V1 siap, vonis GO; SUBMIT_MODE manual — menunggu approval Keva untuk submit (repo masih lokal, belum GitHub).",
-   "waktu_utc": "2026-11-22T04:34:00Z"
-  },
-  {
-   "pesan": "CROSSCHECK sokoban-solver-01-run-20261121: FIX_FIRST — kontrak I/O salah (crash ENOENT, skor 0), Date.now() dilarang, i004/i005 tak terselesaikan, objektif langkah bukan pushes; inti solver 488.889 vs baseline 200.000 (kit checker).",
-   "waktu_utc": "2026-11-22T05:09:00Z"
-  },
-  {
-   "pesan": "IMPROVE sokoban-solver-01-run-20261121: putaran 2 selesai — B1–B4 diperbaiki; skor practice 1.000.000 (5/5 tepat P*), baseline 200.000, run 0,37 dtk, repo 33.636 byte, deterministik 2 run.",
-   "waktu_utc": "2026-11-22T05:34:00Z"
-  },
   {
    "pesan": "CROSSCHECK sokoban-solver-01-run-20261121: GO (putaran 2) — scorer resmi kit 1.000.000, passed=1; baseline diukur ulang 200.000.",
    "waktu_utc": "2026-11-22T05:39:00Z"
@@ -557,6 +543,18 @@
   {
    "pesan": "APPROVAL sokoban-solver-01-run-20261121: Keva menyetujui eksplisit lanjut submit (chat Bounty Automation 13:26 WIB) + unduh ulang kit level 36 dulu; status MINTA APPROVAL -> MENUNGGU + PRIORITAS, langkah berikutnya SUBMIT. Aturan tetap baru dari Keva: selalu izinkan unduh otomatis kit terbaru.",
    "waktu_utc": "2026-11-22T06:27:00Z"
+  },
+  {
+   "pesan": "DEV csv-reader-speed-01-run-20261121: hasil dev V1 terbaca via leaderboard (browser): rank #3759/8447, CPU 1.470.000 µs (trimmed mean), lolos 6/6, tanpa efficiency reward; papan atas 0 µs (transducer WASM SIMD). Syarat mulai V2 terpenuhi.",
+   "waktu_utc": "2026-11-22T06:32:00Z"
+  },
+  {
+   "pesan": "KUNCI diambil pekerja: sokoban-solver-01-run-20261121 SUBMIT V1 (PRIORITAS — persetujuan eksplisit Keva 13:26 WIB + KIT_REFRESH auto).",
+   "waktu_utc": "2026-11-22T06:33:00Z"
+  },
+  {
+   "pesan": "SUBMIT sokoban-solver-01-run-20261121: V1 DISUBMIT — submission 01a201f9-6219-7495-bf3f-8d51bf9bab6b (\"Sokoban Solver\", commit 0567966, repo https://github.com/bapenven-ctrl/sokoban-solver-01-run-20261121), stage scored, semua check lulus; kit level 36 diunduh ulang (32/32 sha256 cocok), grade-local ulang skor 1.000.000 (5/5), check license_osi diperbaiki (SPDX MIT) + badge rank/reward README; repo GitHub ternyata kosong — file entry di-commit/push (eee3db1, 0567966). Kuota hari ini: 1 dari 10 terpakai untuk bounty ini.",
+   "waktu_utc": "2026-11-22T06:38:00Z"
   }
  ],
  "versi_kontrak": 1
