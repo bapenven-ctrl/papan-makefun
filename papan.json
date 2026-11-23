@@ -1,11 +1,11 @@
 {
- "dibuat_pada_utc": "2026-11-23 01:23",
+ "dibuat_pada_utc": "2026-11-23 01:36",
  "versi_kontrak": 2,
  "kunci": {
-  "terpakai": true,
-  "slug": "best-card-game-20261122-1826",
-  "sejak_utc": "2026-11-23 01:08",
-  "langkah_terakhir": "IMPROVE V2 selesai 01:22 UTC; CROSSCHECK V2 didelegasikan 01:23 UTC"
+  "terpakai": false,
+  "slug": null,
+  "sejak_utc": null,
+  "langkah_terakhir": null
  },
  "bounty": [
   {
@@ -24,7 +24,7 @@
    "tenggat_utc": "2026-11-23 01:00",
    "jadwal_mulai_utc": null,
    "mulai_terakhir_utc": "2026-11-22 20:00",
-   "kelonggaran_menit": -323,
+   "kelonggaran_menit": -336,
    "versi": 1,
    "putaran": null,
    "langkah_terakhir_selesai": "BUILDER berhenti 06:00 UTC — kanal tidak tersedia; SKIP final Keva",
@@ -68,7 +68,7 @@
    "tipe_baru": false,
    "harness": null,
    "jalur_cepat": false,
-   "status": "DIPROSES",
+   "status": "MINTA APPROVAL",
    "prioritas": true,
    "tautan": "https://make.fun/bounty/best-card-game-20261122-1826",
    "hadiah": "$50",
@@ -77,11 +77,11 @@
    "tenggat_utc": "2026-11-23 06:26",
    "jadwal_mulai_utc": "2026-11-23 00:21",
    "mulai_terakhir_utc": "2026-11-22 21:26",
-   "kelonggaran_menit": -237,
+   "kelonggaran_menit": -250,
    "versi": 2,
-   "putaran": 1,
-   "langkah_terakhir_selesai": "V1 DISUBMIT 22:19 UTC (submission 01a20557-f99b-754c-b598-fb41d9b5f2ca, commit 6c3a62c, stage scored 22:21 UTC, 26 pass 0 fail 3 skip; ronde buta — skor/rank belum terbaca; claim code AF-MR0NJ-CJ1QD-1XE0J-53GY2; dihitung mulai ronde 2 dari 4, ronde berikut 00:26 UTC); CEK HASIL V1 selesai 00:27 UTC (GET /rounds: blind_rounds 4, judged 1, next_at 03:26 UTC, ranked [2744, null, null, null], board hidden, results [] — peringkat V1 TIDAK TERBACA, V2 lanjut dengan pengukuran sendiri); CEK KESALAHAN selesai 00:30 UTC (kategori tidak kalah; laporan kekalahan-2026-11-23.md; perubahan: kombo tangan K2, animasi deal K3, perjelas skor akhir, periksa licenseInfo); IMPROVE TERTUNDA 00:30 UTC — gerbang execution-risk check sistem atas pemrosesan konten repo; TIDAK ADA submission V2; V1 tetap entri final; INBOX 00:33 UTC: setuju-best-card-game-20261122-1826-v2.txt `ya` diproses 00:38 UTC — V2 DISETUJUI, kembali MENUNGGU + PRIORITAS; kunci diambil 01:08 UTC, langkah IMPROVE; IMPROVE V2 SELESAI 01:22 UTC (kombo tangan pair +3 / straight +5, 6 kasus uji lolos; chip urutan deal 1-5 + label; skor akhir dengan jumlah trick; licenseInfo diperiksa ulang — LICENSE+SPDX benar, GitHub API masih NOASSERTION, bukan blocker; commit V2 c0baa12759c23993de362182068998ecd9418c8c ter-push; TIDAK disubmit; gerbang mekanis lolos — main.ts 2x byte-identik, dossier bc8914a6…, 487.406 byte; 4 screenshot 1280x800; play-test 2 run 0 console error; kit check 4 pass 1 fail transcripts_present — bundle urusan runner; Duel A TIDAK TERUKUR n=0, route Gemini mati 403 DynamicCredentialError, preseden E46; penilai independen: V2 menang kedua arah, margin 1, tanpa regresi; skor rubrik V1->V2: K1 5->5, K2 4->5, K3 4->5 klaim builder — penilai independen memberi K3 4 — K4 5->5, K5 5->5); CROSSCHECK V2 didelegasikan 01:23 UTC",
-   "langkah_berikutnya": "CROSSCHECK (V2, didelegasikan 01:23 UTC)",
+   "putaran": 2,
+   "langkah_terakhir_selesai": "V1 DISUBMIT 22:19 UTC (submission 01a20557-f99b-754c-b598-fb41d9b5f2ca, commit 6c3a62c, stage scored 22:21 UTC, 26 pass 0 fail 3 skip; ronde buta — skor/rank belum terbaca; claim code AF-MR0NJ-CJ1QD-1XE0J-53GY2; dihitung mulai ronde 2 dari 4, ronde berikut 00:26 UTC); CEK HASIL V1 selesai 00:27 UTC (GET /rounds: blind_rounds 4, judged 1, next_at 03:26 UTC, ranked [2744, null, null, null], board hidden, results [] — peringkat V1 TIDAK TERBACA, V2 lanjut dengan pengukuran sendiri); CEK KESALAHAN selesai 00:30 UTC (kategori tidak kalah; laporan kekalahan-2026-11-23.md; perubahan: kombo tangan K2, animasi deal K3, perjelas skor akhir, periksa licenseInfo); IMPROVE TERTUNDA 00:30 UTC — gerbang execution-risk check sistem atas pemrosesan konten repo; TIDAK ADA submission V2; V1 tetap entri final; INBOX 00:33 UTC: setuju-best-card-game-20261122-1826-v2.txt `ya` diproses 00:38 UTC — V2 DISETUJUI, kembali MENUNGGU + PRIORITAS; kunci diambil 01:08 UTC, langkah IMPROVE; IMPROVE V2 SELESAI 01:22 UTC (kombo tangan pair +3 / straight +5, 6 kasus uji lolos; chip urutan deal 1-5 + label; skor akhir dengan jumlah trick; licenseInfo diperiksa ulang — LICENSE+SPDX benar, GitHub API masih NOASSERTION, bukan blocker; commit V2 c0baa12759c23993de362182068998ecd9418c8c ter-push; TIDAK disubmit; gerbang mekanis lolos — main.ts 2x byte-identik, dossier bc8914a6…, 487.406 byte; 4 screenshot 1280x800; play-test 2 run 0 console error; kit check 4 pass 1 fail transcripts_present — bundle urusan runner; Duel A TIDAK TERUKUR n=0, route Gemini mati 403 DynamicCredentialError, preseden E46; penilai independen: V2 menang kedua arah, margin 1, tanpa regresi; skor rubrik V1->V2: K1 5->5, K2 4->5, K3 4->5 klaim builder — penilai independen memberi K3 4 — K4 5->5, K5 5->5); CROSSCHECK V2 didelegasikan 01:23 UTC; CROSSCHECK V2 GO 01:27 UTC (konteks_baru; diukur ulang independen dari clone segar commit c0baa127: main.ts 2x byte-identik — dossier bc8914a6…, 487.406 byte; K2 4->5 terkonfirmasi — findHandCombo pair +3 / straight +5, 6 kasus uji lolos, badge HAND COMBO terlihat, skor naik tepat sebesar bonus; chip deal 1-5 + skor akhir dengan jumlah trick terlihat di screenshot; gerbang mekanis lolos; K3 dinilai 4 — bukan 5 klaim builder — bukan blocker; Duel A TIDAK TERUKUR n=0, route Gemini mati 403; tanpa blocker); SUBMIT V2 TERTUNDA 01:28 UTC — kuota endpoint GET /quota jawab 'sign in required'; hasil pemeriksaan status kuota kit kena notice sistem (execution-risk + prompt-injection); langkah bundle/check/submit TIDAK dijalankan, TIDAK ADA submission V2; V1 tetap entri final (01a20557-f99b-754c-b598-fb41d9b5f2ca, stage scored); kunci dikosongkan 01:28 UTC",
+   "langkah_berikutnya": "SUBMIT (menunggu keputusan Keva — notice sistem atas status kuota)",
    "mulai_dikerjakan_utc": "2026-11-22 20:06",
    "selesai_dikerjakan_utc": null,
    "submit_utc": "2026-11-22 22:19",
@@ -94,12 +94,14 @@
     "total_terpakai": null,
     "total_batas": 20
    },
-   "vonis_crosscheck": "GO putaran 1 (V1)",
-   "blocker": [],
-   "menunggu_apa": null,
-   "file_inbox": null,
-   "isi_inbox_sah": null,
-   "menunggu_sejak_utc": null,
+   "vonis_crosscheck": "GO putaran 2 (V2, 01:27 UTC)",
+   "blocker": [
+    "notice sistem (execution-risk + prompt-injection) atas hasil pemeriksaan status kuota kit — bundle/check/submit belum dijalankan"
+   ],
+   "menunggu_apa": "Keputusan Keva: lanjutkan bundle + check + submit V2, atau biarkan V1 final (hasil pemeriksaan status kuota kit kena notice sistem execution-risk + prompt-injection)",
+   "file_inbox": "setuju-best-card-game-20261122-1826.txt",
+   "isi_inbox_sah": "ya atau tidak",
+   "menunggu_sejak_utc": "2026-11-23 01:28",
    "peringkat": null,
    "total_peserta": null,
    "skor": null,
@@ -110,7 +112,7 @@
     "win_rate": null,
     "interval": null
    },
-   "catatan": "V1 'Lowtide Lanterns' TER-SUBMIT 22:19 UTC (stage scored 22:21 UTC; ronde buta). CHECK pertama 22:18 UTC GAGAL thinking_in_window (bundle discovery 25 sesi menumpang sesi penemuan 14:11 UTC); diperbaiki bundle ulang 3 sesi pembangun (sha 19245087…, 439.807 byte), check lokal 14 pass 0 fail. V2: CEK HASIL 00:27 UTC (ronde buta, peringkat tidak terbaca) + CEK KESALAHAN 00:30 UTC (kategori tidak kalah) + IMPROVE TERTUNDA 00:30 UTC (execution-risk check). V2 DISETUJUI 00:38 UTC (inbox `ya`, ditulis 00:33 UTC, diproses jalan pekerja 00:38 UTC); MENUNGGU + PRIORITAS, langkah IMPROVE; menunggu giliran — kunci dipegang curious V2 sejak 00:38 UTC. Batas selesai V2 05:26 UTC. Catatan-lapangan E43 ditambahkan (V1). MODE UNGGAH. V2: kunci diambil 01:08 UTC; IMPROVE SELESAI 01:22 UTC (commit c0baa12759c23993de362182068998ecd9418c8c; Duel A n=0, route mati 403); CROSSCHECK V2 didelegasikan 01:23 UTC. Batas selesai V2 05:26 UTC. MODE UNGGAH."
+   "catatan": "V1 'Lowtide Lanterns' TER-SUBMIT 22:19 UTC (stage scored 22:21 UTC; ronde buta). CHECK pertama 22:18 UTC GAGAL thinking_in_window (bundle discovery 25 sesi menumpang sesi penemuan 14:11 UTC); diperbaiki bundle ulang 3 sesi pembangun (sha 19245087…, 439.807 byte), check lokal 14 pass 0 fail. V2: CEK HASIL 00:27 UTC (ronde buta, peringkat tidak terbaca) + CEK KESALAHAN 00:30 UTC (kategori tidak kalah) + IMPROVE TERTUNDA 00:30 UTC (execution-risk check). V2 DISETUJUI 00:38 UTC (inbox `ya`, ditulis 00:33 UTC, diproses jalan pekerja 00:38 UTC); MENUNGGU + PRIORITAS, langkah IMPROVE; menunggu giliran — kunci dipegang curious V2 sejak 00:38 UTC. Batas selesai V2 05:26 UTC. Catatan-lapangan E43 ditambahkan (V1). MODE UNGGAH. V2: kunci diambil 01:08 UTC; IMPROVE SELESAI 01:22 UTC (commit c0baa12759c23993de362182068998ecd9418c8c; Duel A n=0, route mati 403); CROSSCHECK V2 didelegasikan 01:23 UTC. Batas selesai V2 05:26 UTC. MODE UNGGAH. CROSSCHECK V2 GO 01:27 UTC (konteks_baru; K1 5, K2 5, K3 4, K4 5, K5 5; Duel A n=0, route mati 403; tanpa blocker). SUBMIT V2 TERTUNDA 01:28 UTC (notice sistem atas status kuota kit); TIDAK ADA submission V2; V1 tetap entri final. Kit segar GAGAL diunduh lagi 01:08 UTC (503 kit_pending) — kit lokal level 36 vs situs 37 (E48). Catatan-lapangan E48 ditambahkan (V2). Batas selesai V2 05:26 UTC. MODE UNGGAH."
   },
   {
    "slug": "csv-reader-speed-01-run-20261121",
@@ -128,7 +130,7 @@
    "tenggat_utc": "2026-11-23 02:42",
    "jadwal_mulai_utc": null,
    "mulai_terakhir_utc": "2026-11-23 02:12",
-   "kelonggaran_menit": 49,
+   "kelonggaran_menit": 36,
    "versi": 3,
    "putaran": 1,
    "langkah_terakhir_selesai": "HASIL DEV V2 TERBACA 14:15 UTC: rank #742/9.643, CPU 1.110.000 µs, lolos 6/6, stage scored; BUILDER V3 selesai 15:08 UTC (solve.js 30.726 byte, grade-local 6/6, diferensial 5.854 0 selisih, CPU 467-512 ms vs V2 548-572 ms); CROSSCHECK V3 FIX_FIRST putaran 0 (15:28 UTC, B1/B2 kritis: scan indexOf('\",\"') cacat); IMPROVE putaran 1 selesai 15:37 UTC (scan dihapus, widthEnd offset eksak, solve.js 31.438 byte, 11.914 perbandingan 0 selisih, bench -15,2% vs V2); CROSSCHECK V3 putaran 1 GO 15:45 UTC (B1/B2/B3 tertutup, 6.074 perbandingan 0 selisih, grade-local 6/6, V3 465,9 ms vs V2 569,5 ms -18,2%); SUBMIT V3 TERTUNDA 15:48 UTC - execution-risk check; PERSETUJUAN DITERIMA 22:06 UTC (inbox `ya` + \"Lanjut submit csv-reader V3 — saya paham risikonya\"); kunci diambil pekerja 22:27 UTC, langkah SUBMIT V3 berjalan; SUBMIT V3 TERTUNDA LAGI 22:27 UTC — jalan pekerja mengambil bounty, hasil pembacaan keadaan gagal execution-risk check sistem; langkah salin/commit/push/check/submit TIDAK dijalankan, TIDAK ADA submission V3; kuota tidak dicek ulang jalan ini (terakhir 15:48 UTC: day left 8/10, can_submit yes); repo GitHub tetap di V2 (commit e89944c, rank dev #742); status kembali MINTA APPROVAL",
@@ -181,7 +183,7 @@
    "tenggat_utc": "2026-11-23 03:00",
    "jadwal_mulai_utc": null,
    "mulai_terakhir_utc": "2026-11-23 02:30",
-   "kelonggaran_menit": 67,
+   "kelonggaran_menit": 54,
    "versi": 2,
    "putaran": 2,
    "langkah_terakhir_selesai": "BUILDER V2 selesai 13:24 UTC (size_bytes 15.385 vs V1 34.074, skor 1.000.000 practice + 30 level segar); CROSSCHECK V2 GO 13:50 UTC (B1 tertutup - replikasi grade-local 1.000.000 passed=1, checker 5/5 tepat P*); SUBMIT V2 TERTUNDA 13:53 UTC dan DIBLOKIR LAGI 14:03 UTC - execution-risk check; KONFIRMASI KATA-KATA BIASA Keva 14:11 UTC (\"Lanjut - saya paham risikonya, submit Sokoban V2\"); inbox diproses 15:54 UTC; V2 DISUBMIT 16:06 UTC (submission 01a20402-0c8e-7148-b0f8-cd5378ef3f8b, commit 00f4318, stage checked, semua check server lulus)",
@@ -232,7 +234,7 @@
    "tenggat_utc": "2026-11-23 14:00",
    "jadwal_mulai_utc": null,
    "mulai_terakhir_utc": "2026-11-23 09:00",
-   "kelonggaran_menit": 457,
+   "kelonggaran_menit": 444,
    "versi": 1,
    "putaran": null,
    "langkah_terakhir_selesai": "Pekerja 06:05 UTC: tidak dibangun — butuh akun X publik + keputusan Garap/Skip Keva",
@@ -285,7 +287,7 @@
    "tenggat_utc": "2026-11-24 15:00",
    "jadwal_mulai_utc": "2026-11-24 03:00",
    "mulai_terakhir_utc": "2026-11-24 06:00",
-   "kelonggaran_menit": 1717,
+   "kelonggaran_menit": 1704,
    "versi": 1,
    "putaran": 1,
    "langkah_terakhir_selesai": "V1 DISUBMIT 11:16 UTC (submission 01a202f8-5bc3-736b-82aa-4b7497f5a87c, commit 6e3c977, stage checked)",
@@ -336,7 +338,7 @@
    "tenggat_utc": "2026-11-24 17:00",
    "jadwal_mulai_utc": "2026-11-24 05:00",
    "mulai_terakhir_utc": "2026-11-24 06:00",
-   "kelonggaran_menit": 1717,
+   "kelonggaran_menit": 1704,
    "versi": 1,
    "putaran": null,
    "langkah_terakhir_selesai": "golf12 entry live (sistem lama, repo HEAD e740c25); sesi 6 Tahap B GATE NO-GO 2026-11-21 (kandidat D1+NMP-ketat 200 game 48,5% = -10 Elo, gate >=+50 Elo tidak terpenuhi); kandidat tersimpan tiny-chess-sesi6/tahapb/cand_final.py, TIDAK di-pack/submit",
@@ -389,7 +391,7 @@
    "tenggat_utc": "2026-11-24 14:00",
    "jadwal_mulai_utc": "2026-11-23 14:00",
    "mulai_terakhir_utc": "2026-11-24 10:30",
-   "kelonggaran_menit": 1987,
+   "kelonggaran_menit": 1974,
    "versi": 1,
    "putaran": null,
    "langkah_terakhir_selesai": null,
@@ -440,7 +442,7 @@
    "tenggat_utc": "2026-11-24 19:00",
    "jadwal_mulai_utc": "2026-11-23 07:00",
    "mulai_terakhir_utc": "2026-11-24 14:00",
-   "kelonggaran_menit": 2197,
+   "kelonggaran_menit": 2184,
    "versi": 1,
    "putaran": null,
    "langkah_terakhir_selesai": null,
@@ -493,7 +495,7 @@
    "tenggat_utc": "2026-11-25 04:00",
    "jadwal_mulai_utc": "2026-11-23 16:00",
    "mulai_terakhir_utc": "2026-11-24 17:00",
-   "kelonggaran_menit": 2377,
+   "kelonggaran_menit": 2364,
    "versi": 1,
    "putaran": null,
    "langkah_terakhir_selesai": null,
@@ -544,7 +546,7 @@
    "tenggat_utc": "2026-12-14 10:00",
    "jadwal_mulai_utc": null,
    "mulai_terakhir_utc": "2026-12-14 03:00",
-   "kelonggaran_menit": 30337,
+   "kelonggaran_menit": 30324,
    "versi": 1,
    "putaran": 2,
    "langkah_terakhir_selesai": "BUILDER + CROSSCHECK GO putaran 2 (09:54 UTC); SUBMIT TERTUNDA 10:15 UTC - execution-risk check; PERSETUJUAN Keva 14:34 UTC (\"lanjut\" + \"Token radar masuk ke antrian\"); inbox diproses 15:54 UTC; V1 DISUBMIT 16:27 UTC (submission 01a20415-f1e1-7122-822e-299b0e9e4545, commit 303f2d8, stage checked; check 26 pass, 3 skip, 0 fail; dev grading berjalan)",
@@ -595,7 +597,7 @@
    "tenggat_utc": "2026-11-22 05:59",
    "jadwal_mulai_utc": null,
    "mulai_terakhir_utc": "2026-11-21 20:59",
-   "kelonggaran_menit": -1704,
+   "kelonggaran_menit": -1717,
    "versi": 1,
    "putaran": null,
    "langkah_terakhir_selesai": "DILEWATI",
@@ -646,7 +648,7 @@
    "tenggat_utc": "2026-11-22 17:59",
    "jadwal_mulai_utc": null,
    "mulai_terakhir_utc": "2026-11-22 08:59",
-   "kelonggaran_menit": -984,
+   "kelonggaran_menit": -997,
    "versi": 1,
    "putaran": null,
    "langkah_terakhir_selesai": "DILEWATI (penemuan 14:11 UTC)",
@@ -699,7 +701,7 @@
    "tenggat_utc": "2026-11-22 20:00",
    "jadwal_mulai_utc": null,
    "mulai_terakhir_utc": "2026-11-22 18:30",
-   "kelonggaran_menit": -413,
+   "kelonggaran_menit": -426,
    "versi": 1,
    "putaran": 0,
    "langkah_terakhir_selesai": "BUILDER V1 selesai 17:20 UTC (main.py Python stdlib, teks 225 karakter/227 byte, gerbang lulus: 2 run sha256 identik); CROSSCHECK V1 GO 17:24 UTC (diukur ulang independen, tanpa blocker); SUBMIT V1 TERTUNDA 17:30 UTC - execution-risk check sistem saat memproses repo (git add diblokir; repo GitHub baru sudah dibuat, masih kosong; tidak ada commit/push/check/submit, tidak ada submission); KEDALUWARSA 2026-11-22 20:00 UTC - V1 tidak pernah disubmit",
@@ -752,7 +754,7 @@
    "tenggat_utc": "2026-11-24 17:09",
    "jadwal_mulai_utc": "2026-11-23 17:09",
    "mulai_terakhir_utc": "2026-11-24 12:09",
-   "kelonggaran_menit": 2086,
+   "kelonggaran_menit": 2073,
    "versi": 1,
    "putaran": null,
    "langkah_terakhir_selesai": null,
@@ -805,7 +807,7 @@
    "tenggat_utc": "2026-11-24 20:00",
    "jadwal_mulai_utc": "2026-11-23 20:00",
    "mulai_terakhir_utc": "2026-11-24 16:30",
-   "kelonggaran_menit": 2347,
+   "kelonggaran_menit": 2334,
    "versi": 1,
    "putaran": null,
    "langkah_terakhir_selesai": null,
@@ -856,7 +858,7 @@
    "tenggat_utc": "2026-11-23 00:38",
    "jadwal_mulai_utc": "2026-11-22 23:38",
    "mulai_terakhir_utc": "2026-11-22 23:08",
-   "kelonggaran_menit": -135,
+   "kelonggaran_menit": -148,
    "versi": 2,
    "putaran": null,
    "langkah_terakhir_selesai": "V1 DISUBMIT 23:08 UTC (submission 01a20584-7156-75c7-80b5-7f822075e716, commit e852698, stage checked; claim code AF-NQNNK-SMSPV-ABPEK-KR0FV; ronde buta — dihitung mulai ronde 3 dari 4, ronde berikut 23:53 UTC); CEK HASIL V1 selesai 23:40 UTC (ronde buta, peringkat tidak tersedia); CEK KESALAHAN selesai 23:42 UTC (kategori tidak kalah; draf V2 279 code point tersimpan); IMPROVE TERTUNDA 23:43 UTC — gerbang execution-risk check sistem atas pemrosesan konten repo; main.py V1 terhapus dari working dir, V1 aman di git e852698; INBOX setuju-V2 (`ya`, PERSETUJUAN TETAP SUBMIT) diproses 00:07 UTC; V2 TERLAMBAT 00:08 UTC — batas selesai terlewat sebelum rantai IMPROVE + crosscheck + submit selesai; TIDAK ADA submission V2; V1 tetap entri final",
@@ -907,7 +909,7 @@
    "tenggat_utc": "2026-11-23 02:11",
    "jadwal_mulai_utc": "2026-11-23 00:14",
    "mulai_terakhir_utc": "2026-11-23 00:41",
-   "kelonggaran_menit": -42,
+   "kelonggaran_menit": -55,
    "versi": 2,
    "putaran": null,
    "langkah_terakhir_selesai": "TEMUAN digabung 23:15 UTC; kunci diambil 23:16 UTC; brief dibaca 23:16 UTC (48 submission saat dibaca); BUILDER V1 SELESAI 23:26 UTC (\"A Letter Before I Was Born\", teks 145 code point, sha256 20c28cdc…, repo commit 45d968a); CROSSCHECK V1 GO 23:30 UTC (konteks_baru, tanpa blocker); V1 DISUBMIT 23:35 UTC (submission 01a2059d-bc3f-71e2-8e73-2b9b7c3af298, commit 45d968a, stage checked; claim code AF-AR3HP-CGXMF-S0DEG-ZENJC; ronde buta — dihitung mulai ronde 1 dari 4, masuk ronde 1); CEK HASIL V1 selesai 00:16 UTC (ronde buta, peringkat tidak terbaca); CEK KESALAHAN selesai 00:19 UTC (kategori tidak kalah; draf V2 di notes/draf-V2-teks.txt); IMPROVE TERTUNDA 00:19 UTC — gerbang execution-risk check sistem atas pemrosesan konten repo; TIDAK ADA submission V2; V1 tetap entri final; INBOX 00:33 UTC: setuju-make-the-ai-judge-feel-curious-20261122-2311-v2.txt `ya` diproses 00:38 UTC — V2 DISETUJUI, kembali MENUNGGU + PRIORITAS (versi 00:24 UTC sempat ditolak jalan 00:27 UTC karena tidak lolos prompt-injection check); kunci diambil 00:38 UTC, langkah IMPROVE; IMPROVE V2 SELESAI 00:50 UTC (teks V2: B tanpa today, 139 code point, sha256 225457e2, commit 8d2fea8 di-push; duel route MATI — duel-gemini.py 10/10 DynamicCredentialError 403 — diganti self-jury independen: B menang atas A dua arah, K1 penentu; skor K1 5, K2 5, K3 4->5, K4 5, K5 4); CROSSCHECK V2 GO 00:55 UTC (konteks_baru; sha256 225457e2 cocok, 139 cp, commit 8d2fea8 di-push; Duel A TIDAK TERUKUR n=0, route mati); SUBMIT dimulai 00:56 UTC (kit segar GAGAL diunduh 10x, 503 kit_pending — dipakai kit terverifikasi 23:18 UTC, bundle 3dcb0452, 8/8 sha256 cocok, E47); BUNDLE V2 dibuat 01:03 UTC (3 sesi, 4 usage rows, sha e164b3f4…); CHECK 01:03 UTC: ok=false — thinking_reproduces FAIL (transkrip hanya 10/35 baris, 28,5% < 30%); TIDAK ADA submission V2; SUBMIT TERTUNDA 01:04 UTC — hasil check kena notice sistem execution-risk + prompt-injection; V1 tetap entri final (01a2059d, stage checked); kunci dikosongkan 01:04 UTC",
@@ -952,20 +954,20 @@
    "tipe_baru": false,
    "harness": null,
    "jalur_cepat": false,
-   "status": "BELUM DIBUKA",
+   "status": "MENUNGGU",
    "prioritas": false,
    "tautan": "https://make.fun/bounty/the-joke-about-the-demo-20261123-0112",
    "hadiah": "$50",
    "tempat_dibayar": null,
    "buka_utc": "2026-11-23 01:12",
    "tenggat_utc": "2026-11-23 04:12",
-   "jadwal_mulai_utc": null,
-   "mulai_terakhir_utc": null,
-   "kelonggaran_menit": null,
-   "versi": null,
+   "jadwal_mulai_utc": "2026-11-23 01:12",
+   "mulai_terakhir_utc": "2026-11-23 02:42",
+   "kelonggaran_menit": 66,
+   "versi": 1,
    "putaran": null,
    "langkah_terakhir_selesai": null,
-   "langkah_berikutnya": null,
+   "langkah_berikutnya": "BUILDER",
    "mulai_dikerjakan_utc": null,
    "selesai_dikerjakan_utc": null,
    "submit_utc": null,
@@ -994,7 +996,7 @@
     "win_rate": null,
     "interval": null
    },
-   "catatan": "Jadwal mulai dihitung penemuan setelah terbuka."
+   "catatan": "V1 mulai segera (buka 01:12 UTC); dipindah BELUM DIBUKA -> MENUNGGU 01:30 UTC oleh jalan pekerja; MULAI TERAKHIR 02:42 UTC; cadangan 30 mnt; jam minimum 1 jam; MODE UNGGAH; jendela 3 jam, tutup 04:12 UTC."
   },
   {
    "slug": "post-tiktok-day-one-day-seven-20261123-0327",
@@ -1052,14 +1054,6 @@
  ],
  "peristiwa_terakhir": [
   {
-   "waktu_utc": "2026-11-23 00:56",
-   "pesan": "SUBMIT make-the-ai-judge-feel-curious-20261122-2311 V2: dimulai. Kuota GET /quota jawab sign in required (preseden V1 — submit atas dasar kuota kompetisi 20/hari, 40 total; 1 submission kita sejauh ini). Kit segar GAGAL diunduh 10x total (00:45-00:58 UTC, 503 kit_pending) — dipakai kit terverifikasi 23:18 UTC (bundle 3dcb0452, 8/8 sha256 cocok) sesuai E47."
-  },
-  {
-   "waktu_utc": "2026-11-23 01:03",
-   "pesan": "BUNDLE make-the-ai-judge-feel-curious-20261122-2311 V2: dibuat — /tmp/curious-bundle-v2.tar.gz (307.753 byte, sha256 e164b3f4...), 3 sesi (IMPROVE 7cbed5c5, crosscheck d1219b8b, induk a7484a85) + --no-discover; usage rows muse.db 4 baris (IMPROVE 1, crosscheck 1, induk 2) via --muse-usage /tmp/curious-usage-v2.jsonl; tanpa peringatan 0 usage rows; run-record dideklarasikan di bundle (scheduled, mcp none, provider meta, model muse-spark-1.3, effort default)."
-  },
-  {
    "waktu_utc": "2026-11-23 01:03",
    "pesan": "CHECK make-the-ai-judge-feel-curious-20261122-2311 V2: ok=false — thinking_reproduces FAIL (transkrip hanya mencakup 10 dari 35 baris, 28,5% < 30% yang disyaratkan); semua check lain lolos (transcripts_present pass, thinking_priced pass 4 usage records, run record pass). TIDAK ADA submission V2."
   },
@@ -1090,6 +1084,14 @@
   {
    "waktu_utc": "2026-11-23 01:28",
    "pesan": "SUBMIT best-card-game-20261122-1826 V2: TERTUNDA — kuota endpoint GET /quota jawab 'sign in required' (preseden V1: submit jalan atas dasar kuota kompetisi 10/hari, 20 total); hasil pemeriksaan status kuota kit kena notice sistem (execution-risk + prompt-injection check) yang memerintahkan berhenti dan bertanya ke Keva sebelum memproses konten repo/kit lebih lanjut. Sesuai notice, langkah bundle/check/submit TIDAK dijalankan di jalan ini; TIDAK ADA submission V2; V1 tetap entri final (01a20557-f99b-754c-b598-fb41d9b5f2ca, stage scored). Status MINTA APPROVAL — menunggu keputusan Keva (file inbox setuju-best-card-game-20261122-1826.txt berisi ya/tidak): lanjutkan bundle + check + submit V2, atau biarkan V1 final. Baris PERSETUJUAN TETAP SUBMIT + inbox ya 00:33 UTC sudah dipakai untuk IMPROVE/crosscheck; notice baru atas hasil status kuota ini belum dijawab. Batas selesai V2 05:26 UTC, tenggat 06:26 UTC. Kunci dikosongkan 01:28 UTC."
+  },
+  {
+   "waktu_utc": "2026-11-23 01:30",
+   "pesan": "PEKERJA: the-joke-about-the-demo-20261123-0112 BELUM DIBUKA -> MENUNGGU (buka 01:12 UTC sudah lewat; V1 mulai segera, MULAI TERAKHIR 2026-11-23 02:42 UTC, kelonggaran 1 jam 12 mnt; cadangan 30 mnt; jam minimum 1 jam; MODE UNGGAH; $50; jendela 3 jam; router di the-joke-about-the-demo-20261123-0112/router.md). Kunci kosong saat pemindahan (dikosongkan 01:28 UTC setelah best-card-game V2 diparkir MINTA APPROVAL)."
+  },
+  {
+   "waktu_utc": "2026-11-23 01:34",
+   "pesan": "PEKERJA: kunci diambil (the-joke-about-the-demo-20261123-0112, V1, BUILDER); inbox kosong, temuan/ kosong; post-tiktok-day-one-day-seven-20261123-0327 masih BELUM DIBUKA (buka 03:27 UTC). BUILDER V1 didelegasikan ke subagen MODE OTOMATIS 01:34 UTC."
   }
  ]
 }
