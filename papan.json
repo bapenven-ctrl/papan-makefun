@@ -1,5 +1,5 @@
 {
-  "dibuat_pada_utc": "2026-11-23T06:27:51Z",
+  "dibuat_pada_utc": "2026-11-23T07:28:11Z",
   "versi_kontrak": 3,
   "kunci": {
     "terpakai": false,
@@ -30,7 +30,7 @@
       "tenggat_utc": "2026-11-22 05:59",
       "jadwal_mulai_utc": null,
       "mulai_terakhir_utc": "2026-11-21 20:59",
-      "kelonggaran_menit": -2009,
+      "kelonggaran_menit": -2070,
       "versi": 1,
       "putaran": null,
       "langkah_terakhir_selesai": "DILEWATI",
@@ -83,7 +83,7 @@
       "tenggat_utc": "2026-11-22 17:59",
       "jadwal_mulai_utc": null,
       "mulai_terakhir_utc": "2026-11-22 08:59",
-      "kelonggaran_menit": -1289,
+      "kelonggaran_menit": -1350,
       "versi": 1,
       "putaran": null,
       "langkah_terakhir_selesai": "DILEWATI (penemuan 14:11 UTC)",
@@ -138,7 +138,7 @@
       "tenggat_utc": "2026-11-22 20:00",
       "jadwal_mulai_utc": null,
       "mulai_terakhir_utc": "2026-11-22 18:30",
-      "kelonggaran_menit": -718,
+      "kelonggaran_menit": -779,
       "versi": 1,
       "putaran": 0,
       "langkah_terakhir_selesai": "BUILDER V1 selesai 17:20 UTC (main.py Python stdlib, teks 225 karakter/227 byte, gerbang lulus: 2 run sha256 identik); CROSSCHECK V1 GO 17:24 UTC (diukur ulang independen, tanpa blocker); SUBMIT V1 TERTUNDA 17:30 UTC - execution-risk check sistem saat memproses repo (git add diblokir; repo GitHub baru sudah dibuat, masih kosong; tidak ada commit/push/check/submit, tidak ada submission); KEDALUWARSA 2026-11-22 20:00 UTC - V1 tidak pernah disubmit",
@@ -193,7 +193,7 @@
       "tenggat_utc": "2026-11-23 01:00",
       "jadwal_mulai_utc": null,
       "mulai_terakhir_utc": "2026-11-22 20:00",
-      "kelonggaran_menit": -628,
+      "kelonggaran_menit": -689,
       "versi": 1,
       "putaran": null,
       "langkah_terakhir_selesai": "BUILDER berhenti 06:00 UTC — kanal tidak tersedia; SKIP final Keva",
@@ -248,7 +248,7 @@
       "tenggat_utc": "2026-11-23 06:26",
       "jadwal_mulai_utc": "2026-11-23 00:21",
       "mulai_terakhir_utc": "2026-11-22 21:26",
-      "kelonggaran_menit": -542,
+      "kelonggaran_menit": -603,
       "versi": 2,
       "putaran": 2,
       "langkah_terakhir_selesai": "KEDALUWARSA 05:26 UTC — V2 tidak pernah disubmit (SUBMIT V2 tertunda notice sistem sejak 01:43 UTC; tidak ada inbox baru); V1 tetap entri final (01a20557, stage scored); ditandai SELESAI oleh pekerja 05:26 UTC.",
@@ -303,7 +303,7 @@
       "tenggat_utc": "2026-11-23 00:38",
       "jadwal_mulai_utc": "2026-11-22 23:38",
       "mulai_terakhir_utc": "2026-11-22 23:08",
-      "kelonggaran_menit": -440,
+      "kelonggaran_menit": -501,
       "versi": 2,
       "putaran": null,
       "langkah_terakhir_selesai": "V1 DISUBMIT 23:08 UTC (submission 01a20584-7156-75c7-80b5-7f822075e716, commit e852698, stage checked; claim code AF-NQNNK-SMSPV-ABPEK-KR0FV; ronde buta — dihitung mulai ronde 3 dari 4, ronde berikut 23:53 UTC); CEK HASIL V1 selesai 23:40 UTC (ronde buta, peringkat tidak tersedia); CEK KESALAHAN selesai 23:42 UTC (kategori tidak kalah; draf V2 279 code point tersimpan); IMPROVE TERTUNDA 23:43 UTC — gerbang execution-risk check sistem atas pemrosesan konten repo; main.py V1 terhapus dari working dir, V1 aman di git e852698; INBOX setuju-V2 (`ya`, PERSETUJUAN TETAP SUBMIT) diproses 00:07 UTC; V2 TERLAMBAT 00:08 UTC — batas selesai terlewat sebelum rantai IMPROVE + crosscheck + submit selesai; TIDAK ADA submission V2; V1 tetap entri final",
@@ -356,7 +356,7 @@
       "tenggat_utc": "2026-11-23 02:11",
       "jadwal_mulai_utc": "2026-11-23 00:14",
       "mulai_terakhir_utc": "2026-11-23 00:41",
-      "kelonggaran_menit": -347,
+      "kelonggaran_menit": -408,
       "versi": 2,
       "putaran": null,
       "langkah_terakhir_selesai": "TEMUAN digabung 23:15 UTC; kunci diambil 23:16 UTC; brief dibaca 23:16 UTC (48 submission saat dibaca); BUILDER V1 SELESAI 23:26 UTC (\"A Letter Before I Was Born\", teks 145 code point, sha256 20c28cdc…, repo commit 45d968a); CROSSCHECK V1 GO 23:30 UTC (konteks_baru, tanpa blocker); V1 DISUBMIT 23:35 UTC (submission 01a2059d-bc3f-71e2-8e73-2b9b7c3af298, commit 45d968a, stage checked; claim code AF-AR3HP-CGXMF-S0DEG-ZENJC; ronde buta — dihitung mulai ronde 1 dari 4, masuk ronde 1); CEK HASIL V1 selesai 00:16 UTC (ronde buta, peringkat tidak terbaca); CEK KESALAHAN selesai 00:19 UTC (kategori tidak kalah; draf V2 di notes/draf-V2-teks.txt); IMPROVE TERTUNDA 00:19 UTC — gerbang execution-risk check sistem atas pemrosesan konten repo; TIDAK ADA submission V2; V1 tetap entri final; INBOX 00:33 UTC: setuju-make-the-ai-judge-feel-curious-20261122-2311-v2.txt `ya` diproses 00:38 UTC — V2 DISETUJUI, kembali MENUNGGU + PRIORITAS (versi 00:24 UTC sempat ditolak jalan 00:27 UTC karena tidak lolos prompt-injection check); kunci diambil 00:38 UTC, langkah IMPROVE; IMPROVE V2 SELESAI 00:50 UTC (teks V2: B tanpa today, 139 code point, sha256 225457e2, commit 8d2fea8 di-push; duel route MATI — duel-gemini.py 10/10 DynamicCredentialError 403 — diganti self-jury independen: B menang atas A dua arah, K1 penentu; skor K1 5, K2 5, K3 4->5, K4 5, K5 4); CROSSCHECK V2 GO 00:55 UTC (konteks_baru; sha256 225457e2 cocok, 139 cp, commit 8d2fea8 di-push; Duel A TIDAK TERUKUR n=0, route mati); SUBMIT dimulai 00:56 UTC (kit segar GAGAL diunduh 10x, 503 kit_pending — dipakai kit terverifikasi 23:18 UTC, bundle 3dcb0452, 8/8 sha256 cocok, E47); BUNDLE V2 dibuat 01:03 UTC (3 sesi, 4 usage rows, sha e164b3f4…); CHECK 01:03 UTC: ok=false — thinking_reproduces FAIL (transkrip hanya 10/35 baris, 28,5% < 30%); TIDAK ADA submission V2; SUBMIT TERTUNDA 01:04 UTC — hasil check kena notice sistem execution-risk + prompt-injection; V1 tetap entri final (01a2059d, stage checked); kunci dikosongkan 01:04 UTC KEDALUWARSA 02:11 UTC (laporan 02:26 UTC, penemuan 02:12 UTC) — tenggat lewat saat masih MINTA APPROVAL (SUBMIT V2 tertunda 01:04 UTC); TIDAK ADA submission V2; V1 tetap entri final (01a2059d, stage checked).",
@@ -412,7 +412,7 @@
       "tenggat_utc": "2026-11-23 02:42",
       "jadwal_mulai_utc": null,
       "mulai_terakhir_utc": "2026-11-23 02:12",
-      "kelonggaran_menit": -256,
+      "kelonggaran_menit": -317,
       "versi": 3,
       "putaran": 1,
       "langkah_terakhir_selesai": "HASIL DEV V2 TERBACA 14:15 UTC: rank #742/9.643, CPU 1.110.000 µs, lolos 6/6, stage scored; BUILDER V3 selesai 15:08 UTC (solve.js 30.726 byte, grade-local 6/6, diferensial 5.854 0 selisih, CPU 467-512 ms vs V2 548-572 ms); CROSSCHECK V3 FIX_FIRST putaran 0 (15:28 UTC, B1/B2 kritis: scan indexOf('\",\"') cacat); IMPROVE putaran 1 selesai 15:37 UTC (scan dihapus, widthEnd offset eksak, solve.js 31.438 byte, 11.914 perbandingan 0 selisih, bench -15,2% vs V2); CROSSCHECK V3 putaran 1 GO 15:45 UTC (B1/B2/B3 tertutup, 6.074 perbandingan 0 selisih, grade-local 6/6, V3 465,9 ms vs V2 569,5 ms -18,2%); SUBMIT V3 TERTUNDA 15:48 UTC - execution-risk check; PERSETUJUAN DITERIMA 22:06 UTC (inbox `ya` + \"Lanjut submit csv-reader V3 — saya paham risikonya\"); kunci diambil pekerja 22:27 UTC, langkah SUBMIT V3 berjalan; SUBMIT V3 TERTUNDA LAGI 22:27 UTC — jalan pekerja mengambil bounty, hasil pembacaan keadaan gagal execution-risk check sistem; langkah salin/commit/push/check/submit TIDAK dijalankan, TIDAK ADA submission V3; kuota tidak dicek ulang jalan ini (terakhir 15:48 UTC: day left 8/10, can_submit yes); repo GitHub tetap di V2 (commit e89944c, rank dev #742); status kembali MINTA APPROVAL MULAI TERAKHIR 02:12 UTC sudah LEWAT 14 mnt (laporan 02:26 UTC); tenggat 02:42 UTC tinggal 16 mnt — V3 praktis tidak bisa disubmit lagi; V2 tetap entri aktif (rank dev #742).",
@@ -467,7 +467,7 @@
       "tenggat_utc": "2026-11-23 03:00",
       "jadwal_mulai_utc": null,
       "mulai_terakhir_utc": "2026-11-23 02:30",
-      "kelonggaran_menit": -238,
+      "kelonggaran_menit": -299,
       "versi": 2,
       "putaran": 2,
       "langkah_terakhir_selesai": "BUILDER V2 selesai 13:24 UTC (size_bytes 15.385 vs V1 34.074, skor 1.000.000 practice + 30 level segar); CROSSCHECK V2 GO 13:50 UTC (B1 tertutup - replikasi grade-local 1.000.000 passed=1, checker 5/5 tepat P*); SUBMIT V2 TERTUNDA 13:53 UTC dan DIBLOKIR LAGI 14:03 UTC - execution-risk check; KONFIRMASI KATA-KATA BIASA Keva 14:11 UTC (\"Lanjut - saya paham risikonya, submit Sokoban V2\"); inbox diproses 15:54 UTC; V2 DISUBMIT 16:06 UTC (submission 01a20402-0c8e-7148-b0f8-cd5378ef3f8b, commit 00f4318, stage checked, semua check server lulus)",
@@ -520,7 +520,7 @@
       "tenggat_utc": "2026-11-23 04:12",
       "jadwal_mulai_utc": "2026-11-23 03:00",
       "mulai_terakhir_utc": "2026-11-23 02:42",
-      "kelonggaran_menit": -226,
+      "kelonggaran_menit": -287,
       "versi": 2,
       "putaran": 0,
       "langkah_terakhir_selesai": "V2 DISUBMIT 03:34:10 UTC (submission 01a20677-e641-7726-bfea-c66103bcdc4a, commit 15c6b14, stage checked; ronde blind 4/final). V3 DILEWATI (mulai V3 04:04 UTC > batas selesai 03:42 UTC).",
@@ -573,7 +573,7 @@
       "tenggat_utc": "2026-11-23 04:00",
       "jadwal_mulai_utc": "2026-11-23 03:00",
       "mulai_terakhir_utc": "2026-11-23 03:30",
-      "kelonggaran_menit": -178,
+      "kelonggaran_menit": -239,
       "versi": 1,
       "putaran": null,
       "langkah_terakhir_selesai": "DILEWATI 03:37 UTC — sisa 13 mnt sampai batas selesai 03:50 UTC < jam minimum jalur cepat 20 mnt; TIDAK ADA submission.",
@@ -611,6 +611,59 @@
       "tie_break": false
     },
     {
+      "slug": "btc-race-24h-20261123-0511",
+      "judul": null,
+      "type_card": "bot-trading.txt",
+      "tipe_baru": false,
+      "harness": "bars-replay/v1",
+      "jalur_cepat": false,
+      "jalur": "normal",
+      "tie_break": false,
+      "status": "MENUNGGU",
+      "prioritas": false,
+      "tautan": "https://make.fun/bounty/btc-race-24h-20261123-0511",
+      "hadiah": "$50",
+      "tempat_dibayar": null,
+      "buka_utc": "2026-11-23 05:11",
+      "tenggat_utc": "2026-11-23 11:11",
+      "jadwal_mulai_utc": "2026-11-23 08:09",
+      "mulai_terakhir_utc": "2026-11-23 06:41",
+      "kelonggaran_menit": -48,
+      "versi": 2,
+      "putaran": null,
+      "langkah_terakhir_selesai": "V1 DISUBMIT 07:09 UTC (submission 01a2073c-8893-7480-9c87-99c2d5554fcc, stage SCORED 07:10 UTC); HASIL DEV V1 TERBACA 07:20 UTC: rank #720/802, prize_rank #620, net PnL $8,34 (sama persis dengan grade-local)",
+      "langkah_berikutnya": "BUILDER V2 (jadwal mulai 08:09 UTC; batas selesai 10:41 UTC)",
+      "mulai_dikerjakan_utc": "2026-11-23T06:45:00Z",
+      "selesai_dikerjakan_utc": null,
+      "submit_utc": "2026-11-23T07:09:00Z",
+      "submit_status": "scored",
+      "submission_id": "01a2073c-8893-7480-9c87-99c2d5554fcc",
+      "entry_final_id": null,
+      "kuota": {
+        "hari_terpakai": 0,
+        "hari_batas": 20,
+        "total_terpakai": null,
+        "total_batas": 40
+      },
+      "vonis_crosscheck": "GO (07:04 UTC, konteks baru)",
+      "blocker": [],
+      "menunggu_apa": null,
+      "file_inbox": null,
+      "isi_inbox_sah": null,
+      "menunggu_sejak_utc": null,
+      "peringkat": 720,
+      "total_peserta": 802,
+      "skor": 8.34,
+      "hadiah_didapat": null,
+      "duel_a": {
+        "n": 0,
+        "win_rate": null,
+        "interval": null,
+        "putusan": null
+      },
+      "catatan": "V1 DipSnap: dev PnL +$8,34, return 0,83%, max DD 1,09%, 8 trade; bar #50 $36,10; V1 TIDAK masuk 50 besar — V2 lanjut tanpa persetujuan. E44+E45 di catatan-lapangan.md. Entri Riwayat Rank terkirim 07:26 UTC."
+    },
+    {
       "slug": "gta6-meme-x-01",
       "judul": null,
       "type_card": "promo-klip-koin.txt",
@@ -626,7 +679,7 @@
       "tenggat_utc": "2026-11-23 14:00",
       "jadwal_mulai_utc": null,
       "mulai_terakhir_utc": "2026-11-23 09:00",
-      "kelonggaran_menit": 152,
+      "kelonggaran_menit": 91,
       "versi": 1,
       "putaran": null,
       "langkah_terakhir_selesai": "Pekerja 06:05 UTC: tidak dibangun — butuh akun X publik + keputusan Garap/Skip Keva",
@@ -681,7 +734,7 @@
       "tenggat_utc": "2026-11-24 15:00",
       "jadwal_mulai_utc": "2026-11-24 03:00",
       "mulai_terakhir_utc": "2026-11-24 06:00",
-      "kelonggaran_menit": 1412,
+      "kelonggaran_menit": 1351,
       "versi": 1,
       "putaran": 1,
       "langkah_terakhir_selesai": "V1 DISUBMIT 11:16 UTC (submission 01a202f8-5bc3-736b-82aa-4b7497f5a87c, commit 6e3c977, stage checked)",
@@ -734,7 +787,7 @@
       "tenggat_utc": "2026-11-24 17:00",
       "jadwal_mulai_utc": "2026-11-24 05:00",
       "mulai_terakhir_utc": "2026-11-24 06:00",
-      "kelonggaran_menit": 1412,
+      "kelonggaran_menit": 1351,
       "versi": 1,
       "putaran": null,
       "langkah_terakhir_selesai": "golf12 entry live (sistem lama, repo HEAD e740c25); sesi 6 Tahap B GATE NO-GO 2026-11-21 (kandidat D1+NMP-ketat 200 game 48,5% = -10 Elo, gate >=+50 Elo tidak terpenuhi); kandidat tersimpan tiny-chess-sesi6/tahapb/cand_final.py, TIDAK di-pack/submit",
@@ -789,7 +842,7 @@
       "tenggat_utc": "2026-11-24 14:00",
       "jadwal_mulai_utc": "2026-11-23 14:00",
       "mulai_terakhir_utc": "2026-11-24 10:30",
-      "kelonggaran_menit": 1682,
+      "kelonggaran_menit": 1621,
       "versi": 1,
       "putaran": null,
       "langkah_terakhir_selesai": null,
@@ -842,7 +895,7 @@
       "tenggat_utc": "2026-11-24 17:09",
       "jadwal_mulai_utc": "2026-11-23 17:09",
       "mulai_terakhir_utc": "2026-11-24 12:09",
-      "kelonggaran_menit": 1781,
+      "kelonggaran_menit": 1720,
       "versi": 1,
       "putaran": null,
       "langkah_terakhir_selesai": null,
@@ -888,7 +941,7 @@
       "tipe_baru": false,
       "harness": null,
       "jalur_cepat": false,
-      "status": "MENUNGGU",
+      "status": "MINTA APPROVAL",
       "prioritas": false,
       "tautan": "https://make.fun/bounty/bring-the-humans-03",
       "hadiah": "$500",
@@ -897,10 +950,10 @@
       "tenggat_utc": "2026-11-24 19:00",
       "jadwal_mulai_utc": "2026-11-23 07:00",
       "mulai_terakhir_utc": "2026-11-24 14:00",
-      "kelonggaran_menit": 1892,
+      "kelonggaran_menit": 1831,
       "versi": 1,
       "putaran": null,
-      "langkah_terakhir_selesai": null,
+      "langkah_terakhir_selesai": "MINTA APPROVAL 07:23 UTC — menuntut akun TikTok publik + posting (video vertikal publik di TikTok adalah entry-nya, dinilai dari views; 20 video terbanyak berbagi $500)",
       "langkah_berikutnya": "BUILDER",
       "mulai_dikerjakan_utc": null,
       "selesai_dikerjakan_utc": null,
@@ -916,12 +969,13 @@
       },
       "vonis_crosscheck": null,
       "blocker": [
-        "butuh akun TikTok publik"
+        "butuh akun TikTok publik",
+        "butuh keputusan Garap/Skip Keva"
       ],
-      "menunggu_apa": null,
-      "file_inbox": null,
-      "isi_inbox_sah": null,
-      "menunggu_sejak_utc": null,
+      "menunggu_apa": "Keputusan Garap/Skip Keva + akun TikTok publik (bisa ditonton dari AS)",
+      "file_inbox": "putuskan-bring-the-humans-03.txt",
+      "isi_inbox_sah": "kerjakan atau lewati",
+      "menunggu_sejak_utc": "2026-11-23T07:23:00Z",
       "peringkat": null,
       "total_peserta": null,
       "skor": null,
@@ -932,7 +986,7 @@
         "win_rate": null,
         "interval": null
       },
-      "catatan": "Bisa digarap cron mulai Senin 23 Nov 14:00 WIB.",
+      "catatan": "MINTA APPROVAL 07:23 UTC (pekerja 07:23 UTC); kunci dikosongkan 07:24 UTC.",
       "jalur": "normal",
       "tie_break": false
     },
@@ -952,7 +1006,7 @@
       "tenggat_utc": "2026-11-24 20:00",
       "jadwal_mulai_utc": "2026-11-23 20:00",
       "mulai_terakhir_utc": "2026-11-24 16:30",
-      "kelonggaran_menit": 2042,
+      "kelonggaran_menit": 1981,
       "versi": 1,
       "putaran": null,
       "langkah_terakhir_selesai": null,
@@ -1005,7 +1059,7 @@
       "tenggat_utc": "2026-11-25 04:00",
       "jadwal_mulai_utc": "2026-11-23 16:00",
       "mulai_terakhir_utc": "2026-11-24 17:00",
-      "kelonggaran_menit": 2072,
+      "kelonggaran_menit": 2011,
       "versi": 1,
       "putaran": null,
       "langkah_terakhir_selesai": null,
@@ -1058,7 +1112,7 @@
       "tenggat_utc": "2026-12-14 10:00",
       "jadwal_mulai_utc": null,
       "mulai_terakhir_utc": "2026-12-14 03:00",
-      "kelonggaran_menit": 30032,
+      "kelonggaran_menit": 29971,
       "versi": 1,
       "putaran": 2,
       "langkah_terakhir_selesai": "BUILDER + CROSSCHECK GO putaran 2 (09:54 UTC); SUBMIT TERTUNDA 10:15 UTC - execution-risk check; PERSETUJUAN Keva 14:34 UTC (\"lanjut\" + \"Token radar masuk ke antrian\"); inbox diproses 15:54 UTC; V1 DISUBMIT 16:27 UTC (submission 01a20415-f1e1-7122-822e-299b0e9e4545, commit 303f2d8, stage checked; check 26 pass, 3 skip, 0 fail; dev grading berjalan)",
@@ -1111,7 +1165,7 @@
       "tenggat_utc": "2026-11-24 03:27",
       "jadwal_mulai_utc": "2026-11-23 15:27",
       "mulai_terakhir_utc": "2026-11-23 22:57",
-      "kelonggaran_menit": 989,
+      "kelonggaran_menit": 928,
       "versi": 1,
       "putaran": null,
       "langkah_terakhir_selesai": null,
@@ -1153,44 +1207,44 @@
   ],
   "peristiwa_terakhir": [
     {
-      "waktu_utc": "2026-11-23 06:14",
-      "pesan": "pekerja: kunci kosong; inbox kosong; temuan/ kosong; tidak ada baris BELUM DIBUKA; tidak ada kandidat MENUNGGU yang jadwal mulainya sudah lewat (MENUNGGU paling awal bring-the-humans-03 V1 mulai 2026-"
+      "waktu_utc": "2026-11-23 07:19",
+      "pesan": "UTC] pekerja-prioritas: JALUR_PRIORITAS aktif; kunci-prioritas kosong; antrean-prioritas kosong; inbox/temuan kosong. GET /competitions?status=open: 20 bounty (naik dari 19 — baru: bounty-entrants-02, buka 07:30 UTC, kategori Growth). Slug di luar antrean/temuan/done diperiksa requirements-nya: boun"
     },
     {
-      "waktu_utc": "2026-11-23 06:16",
-      "pesan": "pekerja-prioritas: JALUR_PRIORITAS aktif; kunci kosong; antrean-prioritas kosong; inbox kosong; temuan/ kosong. GET /competitions?status=open: 18 bounty, sama seperti jalan 06:12 UTC — tidak ada slug "
+      "waktu_utc": "2026-11-23 07:10",
+      "pesan": "UTC — pekerja: status entry V1 btc-race-24h-20261123-0511 (polling 07:10–07:19 UTC, 10x): stage SCORED sejak cek ke-1 07:10:08 UTC — semua check lolos (1 skip sponsor_self_entry), outcome not decided yet. Tidak ditolak; tidak ada aksi pin (tidak ada PIN AKTIF)."
     },
     {
-      "waktu_utc": "2026-11-23 06:17",
-      "pesan": "pekerja-prioritas: JALUR_PRIORITAS aktif; kunci kosong; antrean-prioritas kosong; inbox kosong; temuan/ kosong. GET /competitions?status=open: 18 bounty, sama seperti jalan 06:16 UTC — tidak ada slug "
+      "waktu_utc": "2026-11-23 07:20",
+      "pesan": "UTC — pekerja: HASIL DEV V1 btc-race-24h-20261123-0511 TERBACA (GET leaderboard tanpa limit, 802 entri; snapshot dev-V1-leaderboard-2026-11-23-0720.json di notes): rank #720/802, prize_rank #620, net PnL $8,34 (8.340.000 micro-USDC, SAMA PERSIS dengan grade-local), return 0,83%, max DD 1,09%, 8 trad"
     },
     {
-      "waktu_utc": "2026-11-23 06:18",
-      "pesan": "pekerja-prioritas: JALUR_PRIORITAS aktif; kunci kosong; antrean-prioritas kosong; inbox kosong; temuan/ kosong. GET /competitions?status=open: 18 bounty, sama seperti jalan 06:17 UTC — tidak ada slug "
+      "waktu_utc": "2026-11-23 07:21",
+      "pesan": "UTC] pekerja-prioritas: JALUR_PRIORITAS aktif; kunci-prioritas kosong; antrean-prioritas kosong; inbox/temuan kosong. GET /competitions?status=open: 20 bounty, sama seperti jalan 07:19 UTC. Slug di luar antrean/temuan/done (gta6-trophy-rarity-forecast-01, news-image-20261120/21/22/23, bounty-entrant"
     },
     {
-      "waktu_utc": "2026-11-23 06:18",
-      "pesan": "pekerja-prioritas: JALUR_PRIORITAS aktif; kunci kosong; antrean-prioritas kosong; inbox kosong; temuan/ kosong. GET /competitions?status=open: 18 bounty, sama seperti jalan 06:17 UTC — tidak ada slug "
+      "waktu_utc": "2026-11-23 07:23",
+      "pesan": "UTC] pekerja-prioritas: JALUR_PRIORITAS aktif; kunci-prioritas kosong; antrean-prioritas kosong; inbox/temuan kosong. GET /competitions?status=open: 20 bounty, sama seperti jalan 07:21 UTC. Slug di luar antrean/temuan/done (gta6-trophy-rarity-forecast-01, news-image-20261120/21/22/23, bounty-entrant"
     },
     {
-      "waktu_utc": "2026-11-23 06:20",
-      "pesan": "pekerja-prioritas: JALUR_PRIORITAS aktif; kunci kosong; antrean-prioritas kosong; inbox kosong; temuan/ kosong. GET /competitions?status=open: 18 bounty, sama seperti jalan 06:18 UTC — tidak ada slug "
+      "waktu_utc": "2026-11-23 07:23",
+      "pesan": "UTC — pekerja: bring-the-humans-03 V1 (jadwal mulai 07:00 UTC lewat) → MINTA APPROVAL. Type-card promo-klip-koin.txt + briefing: bounty menuntut iklan vertikal publik di TikTok — video itu sendiri entry-nya, dinilai dari views (20 video terbanyak berbagi $500); butuh akun TikTok publik (bisa ditonto"
     },
     {
-      "waktu_utc": "2026-11-23 06:24",
-      "pesan": "pekerja-prioritas: JALUR_PRIORITAS aktif; kunci kosong; antrean-prioritas kosong; inbox kosong; temuan/ kosong. GET /competitions?status=open: 18 bounty, sama seperti jalan 06:20 UTC — tidak ada slug "
+      "waktu_utc": "2026-11-23 07:25",
+      "pesan": "UTC — pekerja: kunci kosong; inbox kosong; temuan/ kosong; tidak ada baris BELUM DIBUKA; tidak ada kandidat MENUNGGU yang jadwal mulainya sudah lewat (paling awal btc-race-24h-20261123-0511 V2 mulai 08:09 UTC; berikutnya hidden-spec-cli-01-run-20261122 V1 14:00 UTC, post-tiktok-day-one-day-seven-202"
     },
     {
-      "waktu_utc": "2026-11-23 06:24",
-      "pesan": "pekerja: kunci kosong; inbox kosong; temuan/ kosong; tidak ada baris BELUM DIBUKA; tidak ada kandidat MENUNGGU yang jadwal mulainya sudah lewat (MENUNGGU paling awal bring-the-humans-03 V1 mulai 2026-"
+      "waktu_utc": "2026-11-23 07:26",
+      "pesan": "UTC RIWAYAT RANK: btc-race-24h-20261123-0511 V1 DEV terkirim ke chat Riwayat Rank (rank #720/802, prize_rank #620, net PnL $8,34, bar #50 $36,10, tidak masuk bayar; submission 01a2073c-8893-7480-9c87-99c2d5554fcc). riwayat-rank-seen.json kini 5 kunci."
     },
     {
-      "waktu_utc": "2026-11-23 06:25",
-      "pesan": "pekerja-prioritas: JALUR_PRIORITAS aktif; kunci kosong; antrean-prioritas kosong; inbox kosong; temuan/ kosong. GET /competitions?status=open: 18 bounty, sama seperti jalan 06:24 UTC — tidak ada slug "
+      "waktu_utc": "2026-11-23 07:25",
+      "pesan": "UTC] pekerja-prioritas: JALUR_PRIORITAS aktif; kunci-prioritas kosong; antrean-prioritas kosong; inbox/temuan kosong. GET /competitions?status=open: 20 bounty, sama seperti jalan 07:23 UTC. Slug di luar antrean/temuan/done (gta6-trophy-rarity-forecast-01, news-image-20261120/21/22/23, bounty-entrant"
     },
     {
-      "waktu_utc": "2026-11-23 06:26",
-      "pesan": "pekerja-prioritas: JALUR_PRIORITAS aktif; kunci kosong; antrean-prioritas kosong; inbox kosong; temuan/ kosong. GET /competitions?status=open: 18 bounty, sama seperti jalan 06:25 UTC — tidak ada slug "
+      "waktu_utc": "2026-11-23 07:27",
+      "pesan": "UTC] pekerja-prioritas: JALUR_PRIORITAS aktif; kunci-prioritas kosong; antrean-prioritas kosong; inbox/temuan kosong. GET /competitions?status=open: 20 bounty, sama seperti jalan 07:25 UTC. Slug di luar antrean/temuan/done (gta6-trophy-rarity-forecast-01, news-image-20261120/21/22/23, bounty-entrant"
     }
   ]
 }
