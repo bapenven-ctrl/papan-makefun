@@ -1,11 +1,11 @@
 {
- "dibuat_pada_utc": "2026-11-24T16:34:00Z",
+ "dibuat_pada_utc": "2026-11-24T16:40:00Z",
  "versi_kontrak": 3,
  "kunci": {
   "terpakai": true,
   "slug": "u-motasimfuad-make-the-ai-judge-laugh-cat-reviews-its-42a34990",
   "sejak_utc": "2026-11-24T16:24:00Z",
-  "langkah_terakhir": "kunci diambil 16:24 UTC; 3B U1-U3 LOLOS 16:25 UTC; BUILDER V1 berjalan"
+  "langkah_terakhir": "CROSSCHECK V1 FIX_FIRST 16:36 UTC (B1 kontrak/rubrik); PUTARAN PERBAIKAN 1 dimulai 16:37 UTC"
  },
  "kunci_prioritas": {
   "terpakai": false,
@@ -2906,8 +2906,8 @@
    "kelonggaran_menit": 146,
    "versi": 1,
    "putaran": null,
-   "langkah_terakhir_selesai": "kunci diambil 16:24 UTC (jadwal mulai V1 15:00:02.5 UTC, lewat ~1 jam 24 mnt); 3B U1-U3 LOLOS 16:25 UTC; BUILDER V1 berjalan; cutoff ronde buta 2 16:50:01 UTC",
-   "langkah_berikutnya": "BUILDER",
+   "langkah_terakhir_selesai": "BUILDER V1 selesai (repo dibuat 16:30:24Z, commit e955a466, teks 134 cp, 2 run sha256 identik 9ef26fba…); CROSSCHECK V1 FIX_FIRST 16:36 UTC (B1 kontrak/rubrik: kontrak-penilai + briefing T1 salah soal kriteria juri bernomor 1–5; rubrik menghilangkan kriteria 4 asli); PUTARAN PERBAIKAN 1 dimulai 16:37 UTC; V1 akan masuk ronde 3 (cutoff ronde 2 16:50:01 UTC)",
+   "langkah_berikutnya": "PUTARAN PERBAIKAN 1",
    "mulai_dikerjakan_utc": "2026-11-24T16:24:00Z",
    "selesai_dikerjakan_utc": null,
    "submit_utc": null,
@@ -2920,8 +2920,10 @@
     "total_terpakai": null,
     "total_batas": null
    },
-   "vonis_crosscheck": null,
-   "blocker": [],
+   "vonis_crosscheck": "FIX_FIRST (16:36 UTC)",
+   "blocker": [
+    "B1 kontrak/rubrik: kontrak-penilai + briefing T1 salah soal kriteria juri bernomor 1–5; rubrik menghilangkan kriteria 4 asli"
+   ],
    "menunggu_apa": null,
    "file_inbox": null,
    "isi_inbox_sah": null,
