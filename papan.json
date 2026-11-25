@@ -5,7 +5,7 @@
   "terpakai": true,
   "slug": "u-4z4ghtbwm1fn7mibrqum4bxgfghhgqzriyhd8v3-one-line-0be61e5a",
   "sejak_utc": "2026-11-25 15:16 UTC",
-  "langkah_terakhir": "3B LOLOS 15:16 UTC (tmp-blokir-1517); BUILDER V1 didelegasikan ke subagen MODE OTOMATIS 15:17 UTC; jalan pekerja masih berjalan"
+  "langkah_terakhir": "BUILDER V1 SIAP 15:33 UTC (vonis SIAP; teks 124 cp; repo commit 2be83200; sha256 2 run identik e5fd0504…; uji nobody E81 lolos); CROSSCHECK didelegasikan"
  },
  "kunci_prioritas": {
   "terpakai": false,
@@ -4490,7 +4490,7 @@
    "kelonggaran_menit": 520,
    "versi": 1,
    "putaran": null,
-   "langkah_terakhir_selesai": "Kunci diambil pekerja 15:16 UTC (JEJAK SEBELUM KUNCI 15:16 UTC: jadwal mulai V1 2026-11-25 13:45:27.5 sudah lewat ~1 jam 31 mnt, kelonggaran terkecil); 3B U1-U3 LOLOS 15:16 UTC (tmp-blokir-1517); BUILDER V1 didelegasikan ke subagen MODE OTOMATIS 15:17 UTC; jalan pekerja masih berjalan saat bar ini ditulis",
+   "langkah_terakhir_selesai": "Kunci diambil pekerja 15:16 UTC (JEJAK SEBELUM KUNCI 15:16 UTC: jadwal mulai V1 2026-11-25 13:45:27.5 sudah lewat ~1 jam 31 mnt, kelonggaran terkecil); 3B U1-U3 LOLOS 15:16 UTC (tmp-blokir-1517); BUILDER V1 didelegasikan ke subagen MODE OTOMATIS 15:17 UTC; jalan pekerja masih berjalan saat bar ini ditulis; BUILDER V1 SIAP 15:33 UTC (vonis SIAP; teks 124 cp; repo commit 2be83200; sha256 2 run identik e5fd0504…; uji nobody E81 lolos); CROSSCHECK didelegasikan",
    "langkah_berikutnya": "BUILDER",
    "mulai_dikerjakan_utc": "2026-11-25 15:16",
    "selesai_dikerjakan_utc": null,
